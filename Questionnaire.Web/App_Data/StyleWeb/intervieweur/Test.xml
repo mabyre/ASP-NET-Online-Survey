@@ -1,0 +1,693 @@
+<?xml version="1.0" standalone="yes"?>
+<Styles>
+  <Style>
+    <StyleWebGUID>00001233-0000-0000-0000-000000000000</StyleWebGUID>
+    <NomStyleWeb>PageQuestion</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>2</BorderStyle>
+    <BorderWidth>5</BorderWidth>
+    <ForeColor>#FFFFFF</ForeColor>
+    <Padding>6</Padding>
+    <Spacing>15</Spacing>
+    <Width>100%</Width>
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>00001234-0000-0000-0000-000000000000</StyleWebGUID>
+    <NomStyleWeb>TableTitreQuestion</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#00FFFF</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>0</BorderWidth>
+    <ForeColor>#FF3F00</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>12</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>00001235-0000-0000-0000-000000000000</StyleWebGUID>
+    <NomStyleWeb>Reponse</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>false</Applicable>
+    <BackColor>#BFBFBF</BackColor>
+    <BorderColor>#00FF00</BorderColor>
+    <BorderStyle>4</BorderStyle>
+    <BorderWidth>3</BorderWidth>
+    <ForeColor>#7F3F00</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>12</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>right</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>00001236-0000-0000-0000-000000000000</StyleWebGUID>
+    <NomStyleWeb>TableMessage</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#7F7F7F</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#0000FF</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width>350px</Width>
+    <Height />
+    <FontName />
+    <FontSize>10</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>right</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>12d31a33-b140-4b0e-ab74-38217903d289</StyleWebGUID>
+    <NomStyleWeb>CadreQuestion</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#00FFFF</BorderColor>
+    <BorderStyle>3</BorderStyle>
+    <BorderWidth>3</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>8</Padding>
+    <Spacing>3</Spacing>
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>50ca6a85-941f-4aa8-bef0-9ff5e2641d51</StyleWebGUID>
+    <NomStyleWeb>Reponse</NomStyleWeb>
+    <Type>RadioButtonList</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#7FFFD4</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>08bea991-593d-4dc6-9f18-5c7ffdcf0080</StyleWebGUID>
+    <NomStyleWeb>ReponseTextuelleLabel</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FF00FF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>e948268f-5a2b-4306-b865-aa3e84798589</StyleWebGUID>
+    <NomStyleWeb>ReponseTextuelleTextBox</NomStyleWeb>
+    <Type>TextBox</Type>
+    <Applicable>false</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>4</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>61a3b73e-791d-4c55-8a56-bef0100404e3</StyleWebGUID>
+    <NomStyleWeb>Reponse</NomStyleWeb>
+    <Type>CheckBoxList</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFE4C4</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>20</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>66d9dcbb-bb11-4c50-b04b-5c0a306a01e6</StyleWebGUID>
+    <NomStyleWeb>TitrePage</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#0000FF</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#FF0000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>12</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>f7a6c92a-7fd0-435d-95a8-6b766abfa214</StyleWebGUID>
+    <NomStyleWeb>CadreTableau</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFF00</BackColor>
+    <BorderColor>#00BFFF</BorderColor>
+    <BorderStyle>3</BorderStyle>
+    <BorderWidth>3</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>3</Padding>
+    <Spacing>6</Spacing>
+    <Width>100%</Width>
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>13ea1c93-3719-433e-9ffb-c69ad1fb3976</StyleWebGUID>
+    <NomStyleWeb>TitreTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#007F00</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>12</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>681cb0bd-5437-4743-9e23-aacaaf3f9584</StyleWebGUID>
+    <NomStyleWeb>CelluleReponseTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FF0000</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>0</Padding>
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>3ce67fae-6179-4591-a64c-8ca453d685f3</StyleWebGUID>
+    <NomStyleWeb>ReponseTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FF0000</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>8c3dd394-4fa8-4381-aeeb-67be8c610bc3</StyleWebGUID>
+    <NomStyleWeb>QuestionTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#F5F5F5</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#5F5F5F</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>12</FontSize>
+    <Bold>true</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>c734b5a4-01b8-4053-9ac0-2cf66dcae2c4</StyleWebGUID>
+    <NomStyleWeb>CelluleQuestionTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#00FF00</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>0</Padding>
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>8e086e8c-37bf-4224-98cb-922b5a6673fb</StyleWebGUID>
+    <NomStyleWeb>CadreTableau</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>false</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#BFBFBF</BorderColor>
+    <BorderStyle>9</BorderStyle>
+    <BorderWidth>3</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>0</Padding>
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>d85d0fdd-b228-49fd-9b4d-5a74e0a3bfa2</StyleWebGUID>
+    <NomStyleWeb>TableTitreTableau</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFBF00</BackColor>
+    <BorderColor>#BFBFBF</BorderColor>
+    <BorderStyle>4</BorderStyle>
+    <BorderWidth>4</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>8</Padding>
+    <Spacing>11</Spacing>
+    <Width>100%</Width>
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>547b11b8-0f80-4fcf-946c-fc333aefcbad</StyleWebGUID>
+    <NomStyleWeb>CelluleQuestion</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#BFBFBF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>3</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>e3a5946e-0dcc-407c-9fc8-112c9891d1d1</StyleWebGUID>
+    <NomStyleWeb>CompteurQuestions</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#8A2BE2</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>16</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>ef28ee87-f6ac-4ea1-bbce-7be0e70585b8</StyleWebGUID>
+    <NomStyleWeb>CadreQuestionnaire</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#00B7EF</BackColor>
+    <BorderColor>#FAEBD7</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>0</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>a3a12ed7-cacf-474b-a463-1a0f7b1283ba</StyleWebGUID>
+    <NomStyleWeb>TableTitrePage</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F5F5F5</BackColor>
+    <BorderColor>#7F7F7F</BorderColor>
+    <BorderStyle>4</BorderStyle>
+    <BorderWidth>4</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>8</Padding>
+    <Spacing>11</Spacing>
+    <Width>100%</Width>
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>f697a316-4448-4789-b13d-9156a849c48f</StyleWebGUID>
+    <NomStyleWeb>LabelTitre</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>7e7d466f-7833-4361-a8c9-b06142aedd54</StyleWebGUID>
+    <NomStyleWeb>TablePager</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>0</Padding>
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>ef118325-e9e8-4343-be8c-2f2aa9d1af72</StyleWebGUID>
+    <NomStyleWeb>TableCompteurQuestions</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#FF0000</BorderColor>
+    <BorderStyle>2</BorderStyle>
+    <BorderWidth>2</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>3</Padding>
+    <Spacing>6</Spacing>
+    <Width>100%</Width>
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>caf63f39-b2ca-4810-87bc-1d81129e6304</StyleWebGUID>
+    <NomStyleWeb>CelluleQuestion</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>0</Padding>
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>eea825eb-bc1d-4e3d-9176-4bf7ff54cd99</StyleWebGUID>
+    <NomStyleWeb>TableReponseTextuelle</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#F0FFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding>5</Padding>
+    <Spacing>3</Spacing>
+    <Width />
+    <Height />
+    <FontName />
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>ddc58fb5-14ab-419b-81dc-59a1483f4678</StyleWebGUID>
+    <NomStyleWeb>TableTitreTableau</NomStyleWeb>
+    <Type>Table</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>00a09fc4-be8d-4ad9-8d7e-8f11cd965201</StyleWebGUID>
+    <NomStyleWeb>CelluleReponseTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+  <Style>
+    <StyleWebGUID>7bf1697a-1ff3-4309-8481-5824e12f8144</StyleWebGUID>
+    <NomStyleWeb>CelluleQuestionTableau</NomStyleWeb>
+    <Type>Label</Type>
+    <Applicable>true</Applicable>
+    <BackColor>#FFFFFF</BackColor>
+    <BorderColor>#000000</BorderColor>
+    <BorderStyle>1</BorderStyle>
+    <BorderWidth>1</BorderWidth>
+    <ForeColor>#000000</ForeColor>
+    <Padding />
+    <Spacing />
+    <Width />
+    <Height />
+    <FontName>none</FontName>
+    <FontSize>0</FontSize>
+    <Bold>false</Bold>
+    <Underline>false</Underline>
+    <Strikeout>false</Strikeout>
+    <Italic>false</Italic>
+    <Overline>false</Overline>
+    <TextAlign>left</TextAlign>
+  </Style>
+</Styles>

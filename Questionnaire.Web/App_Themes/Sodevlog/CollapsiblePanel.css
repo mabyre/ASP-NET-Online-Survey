@@ -1,0 +1,40 @@
+﻿.CollapsePanelMotPasseOublie
+{
+	height:25px; 
+	cursor:pointer; 
+	font-weight:normal;
+	font-size:smaller;
+	vertical-align:middle;
+}
+
+.CollapsePanelHeader
+{	
+	width:100%;		
+	height:16px;
+	background-repeat:repeat-x;
+}
+
+.TableCollapsePanel
+{
+    border: 1px solid #000000;
+    background-color: #FFFFE1;
+    width: 100%;
+    font-size: 10px;
+}
+
+.PanelAideStyle
+{
+    padding: 2px;
+    margin: 3px;
+    overflow:hidden;
+    height:0px;
+}
+
+.TableAideEnLigneStyle
+{
+    border: 1px solid #000000;
+    background-color: #FFFFE1;
+    width: 100%;
+    font-size: 10px;
+    text-align:left;
+}

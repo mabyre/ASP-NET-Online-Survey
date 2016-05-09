@@ -1,0 +1,466 @@
+﻿.DivListQuestionStyle
+{
+    border: solid 1px #5284D4;
+    background-color: #F9F9F9;
+    margin:6px;
+    padding:4px;
+}
+
+.LabelListUserStyle
+{ 
+    /*color: #006600; */
+    font-size:14px;
+    font-weight:bold;
+    font-family: Verdana; 
+}
+
+.TdLabelListUserQuestionStyle
+{
+    padding-left:25px;
+    padding-top:7px;
+}
+
+.SpanHyperLinkStyle a:hover
+{
+    text-decoration: none;
+    background-color:#C1C1C1;
+}
+
+.HyperLinkStyle
+{
+    background-color: #F1F1F1;
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+
+.HyperLinkAccueilStyle
+{
+    color: Black;
+}
+
+.SpanHyperLinkAccueilStyle a:hover
+{
+    color: Black;
+    background-color:#CCCCCC;
+}
+
+.HyperLinkToujoursVisibleStyle
+{
+    background-color: #F1F1F1;
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    vertical-align:middle;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top:-5px;
+    line-height: 18px;
+    font-family:Verdana;
+    font-size:10px;
+}
+
+.SpanHyperLinkReponseStyle a:hover
+{
+    text-decoration: none;
+    background-color:#C1C1C1;
+}
+
+.HyperLinkReponseStyle
+{
+    background-color:#C6DEFF;
+    text-decoration: none;
+    font-weight:bold;
+    color:Black;
+    text-align:left;
+    padding-left:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.SpanHyperLinkTesterStyle a:hover
+{
+    text-decoration: none;
+    background-color:#C1C1C1;
+    padding:3px;
+}
+.HyperLinkTesterStyle
+{
+    padding:3px;
+}
+
+.TextBoxRankStyle
+{
+    border: 2px inset #3399FF;
+    background-color: #C6DEFF;
+    text-decoration: none;
+    font-weight: bold;
+    color: Black;
+    text-align: left;
+    padding-left: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.TextBoxAjouterReponseStyle
+{
+    border: 1px inset #3399FF;
+    background-color: #FAFAFA;
+    text-decoration: none;
+    /*font-weight: bold;*/
+    color: Black;
+    text-align: left;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.TextBoxReponseRankStyle
+{
+    width:15px;
+    border: 2px inset #3399FF;
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    padding:2px;
+}
+
+.TextBoxReponseStyle
+{
+    border-style: none;
+    padding:2px;
+    color: #0F0F9F;
+    text-align: left;
+}
+
+.TextBoxSautPageStyle
+{
+    border: 2px inset #3399FF;
+    background-color: #C6DEFF;
+    text-decoration: none;
+   /* font-weight: bold;*/
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    width:500px;
+    /*padding-top: 3px;
+    padding-bottom: 3px;*/
+}
+
+.TextBoxTableauStyle
+{
+    border: 2px inset #C00543;
+    background-color: #F76165;
+    text-decoration: none;
+   /* font-weight: bold;*/
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    width:500px;
+    /*padding-top: 3px;
+    padding-bottom: 3px;*/
+}
+
+.HyperLinkReponseAdministrerStyle
+{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:14px;
+    color: #5284D4;
+    text-align:center;
+    padding:3px;
+}
+
+.SpanHyperLinkReponseModifierStyle a:hover
+{
+    text-decoration: none;
+    background-color: #F1F1F1;
+}
+.HyperLinkReponseModifierStyle
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #C00301;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.SpanHyperLinkQuestionEnCoursStyle a:hover
+{
+    text-decoration: none;
+    background-color:#C1C1C1;
+}
+
+.HyperLinkQuestionEnCoursStyle
+{
+    background-color: #F1F1F1;
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+
+.CellLinkReponseStatAllStyle a:hover
+{
+    text-decoration: none;
+    background-color:#C1C1C1;
+    padding-left:5px; 
+}
+
+.HyperLinkReponseStatAllStyle
+{
+    background-color: #F1F1F1;
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+
+.CellLinkQuestionStatAllStyle a:hover
+{
+    text-decoration: none;
+    background-color:#F1F1F1;
+    padding-left:5px; 
+}
+
+.HyperLinkQuestionStatAllStyle
+{
+    /*background-color: #F1F1F1;*/
+    text-decoration: none;
+    color: Black;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+
+.HyperLinkReponseTextuelleStatAllStyle
+{
+    background-color: #F1F1F1;
+    text-decoration: none;
+    color:#CF0007;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+
+.LabelListUserQuestionStyle
+{
+    color:Black;   
+    padding:3px;
+}
+
+.LabelListUserQuestionInstructionStyle
+{
+    font-weight:bold;
+    font-size:11px;
+    color:Green;
+    padding-left:5px;
+}
+
+.TextBoxListUserQuestionInstructionStyle
+{
+    border: solid 1px #CDE4C6;
+    font-weight:bold;
+    color:Green;
+    text-align: left;
+    width:100%;
+}
+
+.TextBoxListUserQuestionInstructionRedStyle
+{
+    border: solid 1px #CDE4C6;
+    font-weight:bold;
+    color:Red;
+    text-align: left;
+    width:100%;
+}
+
+.TextBoxListUserMesssageStyle
+{
+    border: solid 1px #C0D5E6;
+    text-align: left;
+    width:100%;
+}
+
+.LabelListUserQuestionMessageStyle
+{
+    color:Blue;
+    font-size:10px;
+    padding-left:5px;
+}
+
+.TdTextBoxQuestionStyle
+{
+    width:auto;
+}
+
+.TextBoxListUserQuestionStyle
+{
+    /*font-size:12px;*/
+    /*border: 2px inset #3399FF;*/
+    border:none;
+    background-color:#F1F1F1;
+    /*text-align: left;*/
+}
+
+.TextBoxListUserQuestionMessageStyle
+{
+    /*font-size:12px;*/
+    border:none;
+    text-align: left;
+}
+
+.TextBoxScoreStyle
+{
+    /*font-size:12px;*/
+    border:none;
+    text-align: left;
+    width:15px;
+    padding:2px;
+}
+
+.LabelListUserQuestionObligatoireStyle
+{
+    /*font-weight:bold;*/
+    color:Red;
+}
+
+.LabelListUserQuestionFinStyle
+{
+    /*font-weight:bold;*/
+    color:Blue;
+}
+
+.LabelListUserQuestionChoixSimpleStyle
+{
+    color:Blue;
+}
+
+.LabelListUserQuestionChoixMultipleStyle
+{
+    color:Green;
+}
+
+.TdLabelListUserReponseStyle
+{
+    padding-left:15px;
+}
+
+.LabelListUserReponseStyle
+{
+    color:#0F0F9F;
+    padding-left:22px;
+}
+
+.LabelQuestionEnCoursVoteStyle
+{
+    color:Green;
+    font-weight:bold;
+}
+
+.LabelQuestionEnCoursVoteDejaFaitStyle
+{
+    color:Orange;
+    font-weight:bold;
+}
+
+.LabelListBlueStyle
+{
+    color:Blue;
+}
+
+.LabelListBlackStyle
+{
+    color:Black;
+}
+
+.LabelListRedStyle
+{
+    color:Red;
+}
+
+.LabelListGreenStyle
+{
+    color:Green;
+}
+
+/* Saut de Page */
+.PanelSautPage
+{
+    margin: 5px;
+    padding: 0px;
+    border: 1px solid #C0C0C0;
+    width: 95%;
+}
+
+.LabelSautPageStyle
+{
+    font-size: 12px;
+    color: #5282D4;
+    font-weight:bold;
+}
+
+.HrSautPageStyle
+{
+    border: 1px solid #5282D4;
+}
+
+/* Tableau */
+
+.PanelTableau
+{
+    margin: 3px;
+    padding: 0px;
+    /*border: 1px solid #C0C0C0;*/
+    width: 95%;
+}
+
+.PanelStyleWeb
+{
+    margin-left: 30px;
+    margin-top:5px;
+    margin-bottom:3px;
+    width: 95%;   
+}
+
+.PanelLogin
+{
+    padding: 3px;
+    background-color: #F1F1F1;
+    border: solid 1px #C1C1C1;
+}
+
+.HrTableauStyle
+{
+    border: 1px solid #C00543;
+}
+
+.LabelTableauStyle
+{
+    font-size: 12px;
+    color: #C00543;
+    font-weight:bold;
+}
+
+
