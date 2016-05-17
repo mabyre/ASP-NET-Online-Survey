@@ -1,0 +1,83 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterAdminPage.master.cs" Inherits="MasterPage_Admin" EnableTheming="false" %>
+<%@ Register Src="~/Admin/Menu.ascx" TagName="AdminMenu" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <title>Application Web Admin</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="~/Admin/Images/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <table style="height: 100%; width: 100%" cellpadding="0" cellspacing="0" bgcolor="white">
+        <tr>
+            <td id="leftColumn"></td>
+            <td style="height: 100%" valign="top">
+             <form id="form1" runat="server">
+                <table style="height: 100%; width: 100%" cellpadding="0" cellspacing="0">
+                    <tr valign="top">
+                        <td> 
+                            <table class="banner" cellpadding="10px" cellspacing="0" >
+                                <tr>
+                                    <td valign="top" width="20px">
+                                    </td>
+                                    <td valign="middle">
+                                    <h1>Panneau de contrôle</h1>                                    
+                                    </td>
+                                    <td valign="middle">
+                                    </td>  
+                                    <td valign="top" align="right">
+                                        <a id="onsenfout1" runat="server" href="~/Wizard/Accueil.aspx" class="link" >Retour à la page d'accueil</a>
+                                    </td>
+                                    <td valign="top" align="right" style="width:50px">
+                                        <asp:LoginStatus ID="LoginStatusButton" runat="server" CssClass="link" OnLoggingOut="LoginStatusButton_LoggingOut" />
+                                    </td>
+                                </tr>
+                            </table>
+                            <div id="blogTitle">
+                            </div>
+                            <div style="padding: 4px 18px">
+                                <table id="contentTable" cellspacing="0">
+                                    <tr>
+                                        <td valign="top" style="width:100%">
+                                        
+                                            <div style="padding-right: 18px; margin-bottom: 1em;">
+                                            
+                                               <div class="tabs" style="width:100%">
+                                                  <uc1:AdminMenu ID="Menu1" runat="server" />
+                                                </div>
+                                                
+                                                  <div class="main">                                                  
+                                                       <asp:ContentPlaceHolder ID="cphAdmin" runat="server" />                                                  
+                                                  </div>                                              
+                                                
+                                            </div>
+                                        </td>
+                                        <td valign="top">
+                                            <!--<div class="rightSidebar">
+                                              <asp:ContentPlaceHolder ID="rightAdmin" runat="server" />                                                  
+                                            </div>-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Footer -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="bottom">
+                            <div id="admin_footer">
+                            <a href="http://www.sodevlog.com/">Sodevlog</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- End Footer -->
+                </table>
+                </form>
+            </td>
+            <td id="rightColumn"></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <adressewebmaster>webmaster@sodevlog.com</adressewebmaster>
+  <membreconnexionprevenir>faux</membreconnexionprevenir>
+  <abonnnelimitequestions>500</abonnnelimitequestions>
+  <sujetcourrielmaj>courriel de mise à jour</sujetcourrielmaj>
+  <membreapprouveparemail>vrai</membreapprouveparemail>
+  <contactsparpagecourant>50</contactsparpagecourant>
+  <envoyermiseajour>faux</envoyermiseajour>
+  <elargireditor>80</elargireditor>
+  <abonnelimiteinterviewes>3000</abonnelimiteinterviewes>
+  <sitecopyright>Copyright © 2008-2009 SoDevLog</sitecopyright>
+  <abonnelimitereponses>300</abonnelimitereponses>
+  <enregistrercontactanonyme>vrai</enregistrercontactanonyme>
+  <codeaccesquestionnaireexemple>3784</codeaccesquestionnaireexemple>
+  <contactsparpagemin>5</contactsparpagemin>
+  <labelboutonquestion>Valider</labelboutonquestion>
+  <reponsetextuellelargeurmax>980</reponsetextuellelargeurmax>
+  <siteaddress>Adresse de l'entreprise</siteaddress>
+  <abonnelimitequestions>100</abonnelimitequestions>
+  <reponsetextuellelignemax>500</reponsetextuellelignemax>
+  <reponsetextuellelargeurmin>10</reponsetextuellelargeurmin>
+  <abonnelimitequestionnaires>10</abonnelimitequestionnaires>
+  <radiobuttonlistquestionnairerepeatcolumn>10</radiobuttonlistquestionnairerepeatcolumn>
+  <sitenom>Questionnaire de satisfaction en ligne</sitenom>
+  <loguser>faux</loguser>
+  <membreprevenir>faux</membreprevenir>
+  <contactsparpagemax>600</contactsparpagemax>
+  <virtualpath>~/Questionnaire.Web</virtualpath>
+  <gratuitlimiteinterviewes>100</gratuitlimiteinterviewes>
+  <gratuitlimitereponses>50</gratuitlimitereponses>
+  <gratuitlimitequestionnaires>2</gratuitlimitequestionnaires>
+  <debloquerclient>vrai</debloquerclient>
+  <enregistrercontactavecsociete>faux</enregistrercontactavecsociete>
+  <clientlimiteinterviewes>20</clientlimiteinterviewes>
+  <tailleeditor>200</tailleeditor>
+  <membreapprouve>vrai</membreapprouve>
+  <clientlimitequestions>2</clientlimitequestions>
+  <limitationimportsinterviewes>500</limitationimportsinterviewes>
+  <gratuitlimitequestions>10</gratuitlimitequestions>
+  <siteslogan>Enquête sur la satisfaction clients</siteslogan>
+</settings>

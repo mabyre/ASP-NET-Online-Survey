@@ -1,0 +1,23 @@
+ Le volume dans le lecteur F s'appelle Developpement
+ Le num‚ro de s‚rie du volume est 98C0-BC43
+
+ R‚pertoire de F:\Visual Studio 2005\Questionnaire\Questionnaire.Web\App_Data\StyleWeb\intervieweur
+
+04/03/2010  12:40    <REP>          .
+04/03/2010  12:40    <REP>          ..
+04/03/2010  10:17            15ÿ271 Aucun Style.xml
+04/03/2010  10:56            15ÿ129 Boite Bleue.xml
+04/03/2010  11:07            15ÿ129 Boite Rouge.xml
+04/03/2010  10:31            15ÿ129 Boite Verte.xml
+04/03/2010  11:52            15ÿ123 Cadre Bleu.xml
+04/03/2010  11:50            15ÿ123 Cadre Rouge.xml
+04/03/2010  11:47            15ÿ123 Cadre Vert.xml
+04/03/2010  10:17            16ÿ483 Champˆtre.xml
+04/03/2010  10:17            19ÿ982 Classique.xml
+04/03/2010  12:40                 0 dir.txt
+04/03/2010  10:17            19ÿ880 D‚faut.xml
+04/03/2010  10:16            19ÿ907 Marine.xml
+04/03/2010  11:10            19ÿ898 Simple.xml
+04/03/2010  10:17            20ÿ752 Test.xml
+              14 fichier(s)          222ÿ929 octets
+               2 R‚p(s)     907ÿ988ÿ992 octets libres

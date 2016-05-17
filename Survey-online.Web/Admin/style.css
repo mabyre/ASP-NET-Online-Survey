@@ -1,0 +1,329 @@
+﻿/* curieu mais les style du site principal sont appliques pas tous */
+body 
+{
+	height: 100%;
+	background-color: #FFFFFF;
+	font-style: normal;
+	font-size: small;
+	margin: 0;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+
+h1 
+{
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.link 
+{
+	text-decoration:none;
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-left:5px;
+	padding-right:5px;
+	border: solid 1px #B8C1CA; 
+	background-color:#FFFFFF;   
+	color: #799DFB; /* non applique */
+}
+
+.link:hover 
+{
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#B8C1CA;   
+}
+
+img 
+{
+	border: none;
+}
+
+.alt td {
+	background-color: white;
+}
+
+label.wide {
+	float: left;
+	display: block;
+}
+
+/*----------------------------
+						Layout
+----------------------------*/
+
+#blogTitle
+{
+    background-color:white;
+}
+
+#leftColumn 
+{
+	background-image: url( 'images/bkgd_left_column.gif' );
+	background-repeat: repeat-y;
+	width: 28px;
+}
+
+#rightColumn 
+{
+	background-image: url( 'images/bkgd_right_column.gif' );
+	background-repeat: repeat-y;
+	width: 28px;
+}
+
+#admin_footer 
+{
+	font-size: .8em;
+	padding-top: 4px;
+	text-indent: 30px;
+	background-color: #959595;
+	color: white;
+	width: 100%;
+	height: 17px;
+	clear: right;
+}
+
+#admin_footer a 
+{
+	color: White;
+}
+
+.rightSidebar {
+	width: 210px;
+	background-color: #F1F1F1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B8C1CA;
+	padding: 10px 10px 10px 10px;
+	background-color: #F1F1F1;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.banner {
+	width: 100%;
+	background-color: #F1F1F1;
+	border-bottom: solid 4px #959595;
+}
+
+.banner h1 {
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px;
+	letter-spacing: 1px;
+	color: Silver;
+}
+
+.banner h2 {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	color: Silver;
+}
+
+.main {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B8C1CA;
+	padding: 45px 10px 3px 10px;
+	background-color: #F1F1F1;
+	border-top: solid 1px #B8C1CA;
+}
+
+.settings {
+	padding: 10px 10px 10px 10px;
+	background: white;
+	border: 1px solid silver;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.settings h1 {
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid silver;
+}
+
+.settings label {
+	float: left;
+	width: 200px;
+}
+
+.nowidth label {
+	float: none;
+	width: 0px;
+}
+
+td.label{
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.settings span label{
+	float: none;
+	display: inline;
+	width: auto;
+	padding-right: 20px;	
+}
+
+.settings span input[type="radio"]{
+	border: none;
+}
+
+/*----------------------------
+					Referrers
+----------------------------*/
+
+table.referrer td {
+	padding: 2px 0;
+	border-bottom: 1px solid silver;
+}
+
+table.referrer tr.alt td {
+	background-color: White;
+}
+
+table.referrer caption {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 8px;
+  display: block;
+}
+
+/*----------------------------
+					Category
+----------------------------*/
+
+.category td {
+	padding: 2px 10px;
+  vertical-align: top;
+}
+
+.category td input {
+	width: 200px;
+}
+
+.category td textarea {
+	height: 70px;
+	width: 400px;
+}
+
+/*- Menu Tabs --------------------------- */
+
+.tabs .current {
+	font-weight: bolder;
+	color: Blue;
+	border-bottom: solid 1px #F1F1F1;
+}
+
+.tabs {
+	float: left;
+	width: 100%;
+	background: #FFFFFF;
+	font-size: 93%;
+	line-height: normal;
+	margin: 0;
+	padding: 0; 
+	border-bottom:solid 1px #B8C1CA;
+}
+
+.tabs ul {
+	margin: 0;
+	padding: 10px 10px 0 50px;
+	list-style: none;
+	position: relative;
+	top: 1px;
+}
+
+.tabs li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.tabs a {
+	float: left;
+	background: url( "images/tableftB.gif" ) no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 4px;
+	text-decoration: none;
+  text-transform: capitalize;
+}
+
+.tabs a span {
+	float: left;
+	display: block;
+	background: url( "images/tabrightB.gif" ) no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	color: #666;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.tabs a span {
+	float: none;
+}
+
+/* End IE5-Mac hack */
+.tabs a:hover span {
+	color: #000;
+}
+
+.tabs a:hover {
+	background-position: 0% -42px;
+}
+
+.tabs a:hover span {
+	background-position: 100% -42px;
+}
+
+/*-------------*/
+
+.main input[type="submit"], .main input[type="button"] {
+	color: #000000;
+	background: #FFFFFF;
+	border: 1px solid #B8C1CA;
+}
+
+.main input[type="submit"]:hover {
+	color: #FFFFFF;
+	background: #B8C1CA;
+	cursor: pointer;
+}
+
+.settings input[type="submit"], .settings input[type="button"] {
+	color: #666;
+	background: #F1F1F1;
+	border: 1px solid #B8C1CA;
+}
+
+.settings input[type="submit"]:hover, .settings input[type="button"]:hover {
+	color: #FFFFFF;
+	background: #B8C1CA;
+	cursor: pointer;
+}
+
+input, select, textarea {
+	color: #666;
+	background: #FFFFFF;
+	border: 1px solid #B8C1CA;
+}
+
+input[type="file"]:hover {
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	border: none;
+}
+
+.TextBoxLogStyle
+{
+    font-size:10px;
+    /*font-weight:bold;*/
+    font-family: Verdana; 
+}

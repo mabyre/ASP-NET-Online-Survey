@@ -1,2 +1,0 @@
-
-<asp:Image runat="server" SkinID="ImageLoading" ImageUrl="images/ajax-loader.gif" style="text-align:center;" />

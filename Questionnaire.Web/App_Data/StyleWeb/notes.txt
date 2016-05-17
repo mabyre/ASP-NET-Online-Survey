@@ -1,2 +1,0 @@
-
-*** Aucun style.xml : à été généré automatiquement par l'application dans GetStyleWeb()

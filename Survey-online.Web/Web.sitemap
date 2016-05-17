@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- l'acces aux noeud est traite par le web.config "location path=" l'attribut roles ne sert a rien ! -->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Wizard/Accueil.aspx" title="Accueil" description="" roles="*">
+        <siteMapNode url="Member/Manage.aspx" title="Intervieweur" description="Ajouter ou Supprimer des Membres" >
+            <siteMapNode url="Member/Register.aspx" title="Enregistrer" description="Enregistrement d'un nouveau Membre" />
+        </siteMapNode>
+        <siteMapNode url="Questionnaire/Manage.aspx" title="Questionnaire" description="Administrer, Programmez vos Questionnaires" >
+            <siteMapNode url="Wizard/Questionnaire.aspx" title="Créer" description="Créer un nouveau Questionnaire à partir d'un exemple" />
+            <siteMapNode url="Questionnaire/Edit.aspx?Edition=1" title="Editer" description="Créer un Questionnaire, Editer un Questionnaire existant" />
+            <siteMapNode url="Poll/List.aspx" title="Visualiser, Modifier" description="Visualiser, modifier, votre Questionnaires" />
+            <siteMapNode url="Poll/Questionnaire.aspx?Test=1" title="Tester" description="Tester votre Questionnaire" />
+            <siteMapNode url="MemberData/ImportExport.aspx" title="Importer, Exporter" description="Importer\Exporter des données Membre" />
+            <siteMapNode url="Poll/Questionnaire.aspx?StyleWeb=1" title="Styles" description="Visualiser, modifier les Styles Webs" />
+            <siteMapNode url="Score/Manage.aspx" title="Scores" description="Créer, Modifier, Supprimer des scores" />
+        </siteMapNode>
+        <siteMapNode url="Wizard/Question.aspx" title="Question" description="Ajouter des questions à votre questionnaire" >
+            <siteMapNode url="Poll/Manage.aspx" title="Programmer" description="Programmer les Questions d'un Questionnaire" />
+            <siteMapNode url="Wizard/QuestionEnchainee.aspx" title="Enchainer plusieurs questions" description="Ajouter plusieurs questions à votre questionnaire" />
+            <siteMapNode url="Poll/Answers.aspx" title="Réponse" description="Administrer les réponses" />
+        </siteMapNode>
+        <siteMapNode url="Contact/Manage.aspx" title="Interviewé" description="Administrer les Interviewés" >
+            <siteMapNode url="Contact/Edit.aspx" title="Nouveau" description="Nouvel Interviewé" />
+        </siteMapNode>
+        <siteMapNode url="Wizard/Enquete.aspx" title="Enquête" description="Gérer vos enquêtes" >
+            <siteMapNode url="WebContent/Edit.aspx?sectionname=PageAccueil" title="Page d'accueil" description="Modifier la Page d'accueil des Interviewés" />
+            <siteMapNode url="WebContent/Edit.aspx?sectionname=CorpsEmail" title="Page d'email" description="Modifier l'email envoyé aux Interviewés" />
+            <siteMapNode url="Contact/Email.aspx" title="Email" description="Gérer les Emails envoyés aux Interviewés" />
+            <siteMapNode url="Contact/Email.aspx?tel=1" title="Téléphone" description="Gérer les Réponses des Interviewés" />
+            <siteMapNode url="Poll/QuestionnaireStatAll.aspx" title="Statistique" description="Les Statistiques" />
+        </siteMapNode>
+        <siteMapNode url="Admin/Default.aspx" title="Administrer" description="Administrer votre Serveur Smtp" >
+            <siteMapNode url="WebContent/Manage.aspx" title="Page" description="Modifier les Pages" />
+            <siteMapNode url="Member/Edit.aspx"  title="Mon compte"  description="Editez les informations sur votre compte" />
+            <siteMapNode url="Member/Logout.aspx"  title="Déconnexion"  description="Déconnectez vous de l'application" />
+        </siteMapNode>
+        <siteMapNode url="Help/Aide.aspx" title="Aide" description="La page d'aide" >
+            <siteMapNode url="Help/AideAdmin.aspx" title="AideAdmin" description="Aide de l'administrateur" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

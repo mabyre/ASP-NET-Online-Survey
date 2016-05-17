@@ -1,0 +1,61 @@
+﻿
+.button
+{ 
+	cursor: hand; 
+	background: transparent url('images/button.png') no-repeat 0% 0%;
+	padding: 0;
+	width: 123px;
+	height: 40px;
+	border: none;		
+	overflow: hidden;
+	font: corbel;
+	font-size: 17px;
+	color: #454545;
+	padding-bottom: 5px;
+}
+
+.button:hover 
+{
+	background: transparent url('images/button.png') no-repeat 0% -40px; 
+}
+
+.buttonRepondre
+{ 
+	cursor: hand; 
+	background: transparent url('images/button_repondre.png') no-repeat 0% 0%;
+	padding: 0;
+	width: 123px;
+	height: 40px;
+	border: none;		
+	overflow: hidden;
+	font: corbel;
+	font-size: 17px;
+	color: #454545;
+	padding-bottom: 5px;
+}
+
+.buttonRepondre:hover 
+{
+	background: transparent url('images/button_repondre.png') no-repeat 0% -40px; 
+}
+
+.small_button
+{ 
+	cursor: hand; 
+	background: transparent url('images/small_button.png') no-repeat 0% 0%;
+	padding: 0;
+	width: 61px;
+	height: 20px;
+	border: none;		
+	overflow: hidden;
+	font: corbel;
+	font-size: 12px;
+	color: #454545;
+	padding-bottom: 2px;
+}
+
+.small_button:hover 
+{
+	background: transparent url('images/small_button.png') no-repeat 0% -20px; 
+}
+

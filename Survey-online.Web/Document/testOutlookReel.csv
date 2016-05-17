@@ -1,0 +1,180 @@
+"Titre","Prénom","Deuxième prénom","Nom","Suffixe","Société","Service","Titre","Rue (bureau)","Rue (bureau) 2","Rue (bureau) 3","Ville (bureau)","Dép/Région (bureau)","Code postal (bureau)","Pays/Région (bureau)","Rue (domicile)","Rue (domicile) 2","Rue (domicile) 3","Ville (domicile)","Dép/Région (domicile)","Code postal (domicile)","Pays/Région (domicile)","Rue (autre)","Rue (autre) 2","Rue (autre) 3","Ville (autre)","Dép/Région (autre)","Code postal (autre)","Pays/Région (autre)","Téléphone de l'assistant(e)","Télécopie (bureau)","Téléphone (bureau)","Téléphone 2 (bureau)","Rappel","Téléphone (voiture)","Téléphone société","Télécopie (domicile)","Téléphone (domicile)","Téléphone 2 (domicile)","RNIS","Tél. mobile","Télécopie (autre)","Téléphone (autre)","Récepteur de radiomessagerie","Téléphone principal","Radio téléphone","Téléphone TDD/TTY","Télex","Adresse de messagerie","Type de messagerie","Nom complet de l'adresse de messagerie","Adresse de messagerie 2","Type de messagerie 2","Nom complet de l'adresse de messagerie 2","Adresse de messagerie 3","Type de messagerie 3","Nom complet de l'adresse de messagerie 3","Anniversaire","Anniversaire de mariage ou fête","Autre boîte postale","B.P. professionnelle","Boîte postale du domicile","Bureau","Catégories","Code gouvernement","Compte","Conjoint(e)","Critère de diffusion","Disponibilité Internet","Emplacement","Enfants","Informations facturation","Initiales","Kilométrage","Langue","Mots clés","Nom de l'assistant(e)","Notes","Numéro d'identification de l'organisation","Page Web","Passe-temps","Priorité","Privé","Profession","Recommandé par","Responsable","Serveur d'annuaire","Sexe","Utilisateur 1","Utilisateur 2","Utilisateur 3","Utilisateur 4"
+"","ALX","Technologies","34","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"alx34@wanadoo.fr SMTP alx34@wanadoo.fr","SMTP",,,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"",,,,"Faible",,,,,,"Non spécifié"
+"","Astrid","","Rousseau","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"contact@astridrousseau.com","SMTP","Astrid Rousseau",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"",,,,"Faible",,,,,,"Non spécifié"
+"Monsieur","Bernard","","Nicolau","","Epsilog","","Secrétaire Général",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"bernard.nicolau@epsilog.com","SMTP","Bernard Nicolau (bernard.nicolau@epsilog.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"B.N.",,"","",,"Pulg in de février 2008
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Bertrand","","Filliette","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"b.filliette@iesud.net","SMTP","Bertrand Filliette",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"B.F.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Bertrand","","Thiébault","","Télédev","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 87 47 51",,,,,,,,,,,,,,,,,"bertrand@arevatrip.com","SMTP","Bertrand Thiébault","bertrand@teledev.fr","SMTP","Bertrand TéléDev",,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"B.T.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Cedric","","Baron","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"cedric@release.fr","SMTP","Cedric Baron",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"C.B.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Chrystelle","- TeleDev","France","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"chrystelle@teledev.fr","SMTP","Chrystelle - TeleDev France",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"C.T.T.F.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Claude","","Rizzon","","Maisons Claude Rizzon","","Directeur",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"mcrm-lecres@rizzon.com","SMTP","Claude Rizzon (mcrm-lecres@rizzon.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"C.R.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","David","","Delsol","","CCI Montpelllier","","Cahrgé de Mission TIC",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"d.desol@montpellier.cci.fr","SMTP","David Delsol (d.desol@montpellier.cci.fr)","david.delsol@gmail.com","SMTP","David Delsol",,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"D.D.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","David","","FREYCHE","","Développeur .NET","","","",,,"Bayonne 64","","","France",,,,,,,,,,,,,,,,,,,,,,,,,,"(06) 72 80 84 30",,,,,,,,"dfrenchie720@yahoo.fr","SMTP","David FREYCHE (dfrenchie720@yahoo.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"D.F.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Dominique","","Boudet","","Jogging; Le","","","",,,"Le Joggingp","","","France",,,,,,,,,,,,,,,,,"(0) 499 232 700",,,,,,,,,,,,,,,,,"DominiqueBoudet@le-jogging.com","SMTP","DominiqueBoudet@le-jogging.com",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"D.B.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Dominique","","Saliba","","Institut de la simplification","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 70 05 05",,,,,,,,,,,"saliba@simplific.org","SMTP","Dominique Saliba",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"D.S.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+,"François",,,,"Société de Fabrication de Chaudières",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"francois.durand@sfc.com ","SMTP","Durand",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,,,,,"Faible",,,,,,"Non spécifié"
+"","ElitSoft","","","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"elitsoft@hotmail.fr","SMTP","ElitSoft (elitsoft@hotmail.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Elodie","","Roquefeuil","","AADENA","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 41 90 12",,,,,,,,,,,,,,,,,"aadena.france@wanadoo.fr","SMTP","aadena.france@wanadoo.fr",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.R.",,"","",,"Campagne télédev septembre 2007
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Emmanuel","","Alric","","","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 99 92 24 36",,,,,,,,,"(06) 70 99 32 55",,,,,,,,"ealric@iocean.fr","SMTP","Emmanuel ALRIC",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.A.",,"","",,"Viadéo commercial IOCean
+",,"http://www.iocean.fr",,"Normale","Faux",,,,,"Non spécifié"
+"","Eric","","Jannin","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"rickoteck@yahoo.com","SMTP","Eric Jannin",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.J.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Eric","","Lacombe","","","","Consultant",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 41 26 52",,,,,,,,,,,"lacombe.e@free.fr","SMTP","Eric Lacombe",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.L.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Eric","Nguyen","Hong","","RHéflex","","Consultant Organisation Entreprises ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(06) 74 44 87 61",,,,,,,,"e.nguyenhong@rheflex.fr","SMTP","Eric Nguyen Hong (e.nguyenhong@rheflex.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.N.H.",,"","",,"Club business 34 du 02/10/2007
+
+Sandra Bellot
+ericnguyenhong@free.fr
+
+RHéflex 
+PIT de la Pompignane – Bât T4 – Rue de la Vieille Poste – 34055 Montpellier Cedex 1
+Tél : 04 67 07 07 59 - Fax : 04 67 82 59 05 - e.nguyenhong@rheflex.fr - www.rheflex.fr 
+
+e.nguyenhong@gmail.fr
+
+pro rheflex
+hotmail
+
+
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Fabienne","","Amadori","","ISIMEDIA","","","",,,"Saint Mathieu de Tréviers","","","France",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"famadori@isimedia.com","SMTP","Fabienne AMADORI",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.A.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Fathia","","Evano","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 04 43 26",,,,,,,,,,,"f.evano@laposte.net","SMTP","Fathia Evano",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.E.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Florence","","Truchet","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"f.truchet@axilya.fr","SMTP","Florence Truchet",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.T.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Florent","","Guyennet","","Unilog","","",,,,,,,,,,,,,,,,,,,,,,,,"33 (0) 4 67 63 68 92",,,,,,,,,,,,,,,,,"florent.guyennet@unilog.logicacmg.com","SMTP","Florent GUYENNET",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.G.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Franck","Chartier","","","BL Informatique","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 13 27 00",,,,,,,,,"(06) 62 23 40 70",,,,,,,,"franck.chartier@blinformatique.fr","SMTP","Franck CHARTIER BL Informatique",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.C.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Gilles","","Lucato","","Lucato@Transferts-Lr.Org","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"lucato@transferts-lr.org","SMTP","Gilles Lucato (lucato@transferts-lr.org)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"G.L.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Guillaume","","Plas","","","","",,,,,,,,,,,,,,,,,,,,,,,,"(09) 53 04 09 80",,,,,,"(01) 47 49 81 86",,,"(06) 75 21 70 09",,,,,,,,,,,,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"G.P.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Ishraf","","Zaoui","","Université Grenoble","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ishraf.zaoui@upmf-grenoble.fr","SMTP","Ishraf Zaoui",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"I.Z.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Ivan","","Komarrof","","Spectacom","","Risk Manager",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ikoff@free.fr","SMTP","Ivan Komarrof (ikoff@free.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"I.K.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Jean","Christophe","Romain","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jean-christophe@industriesindigenes.com","SMTP","Jean Christophe Romain (jean-christophe@industriesindigenes.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"J.C.R.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Jean","Marc","Creissent","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jmarc.creissent@wanadoo.fr","SMTP","Jean Marc Creissent (jmarc.creissent@wanadoo.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"J.M.C.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Jean-Francois","","Foucher","","CIRAD","","Délégué au affaire informatiques",,,,"CIRAD",,,"France",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jean-francois.foucher@cirad.fr","SMTP","Jean-Francois Foucher",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"J.F.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Jean-Luc","","Bachino","","Viadéo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jlbachino@pagesuivante.com","SMTP","Jean-Luc Bachino (jlbachino@pagesuivante.com)",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,"J.B.",,,,,"Agence Page suivante Viadéo
+jlbachino@pagesuivante.com
+",,,,"Faible",,,,,,"Non spécifié"
+"","Jean-Luc","","Lemen","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jl.lemen@osmose.fr","SMTP","Jean-Luc Lemen",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"J.L.",,"","",,"Jean Luc Le Men
+Administrateur réseau
+Groupe Osmose
+01 44 61 34 47
+www.osmose.fr <http://www.osmose.fr/> 
+ 
+
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Laurence","","D’Allaines","","OPPTICLR","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ldallaines@oppticlr.org","SMTP","Laurence D’Allaines (ldallaines@oppticlr.org)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.D.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Laurent","","Demas","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ressources@vetravision.fr","SMTP","Laurent Demas (ressources@vetravision.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.D.",,"","",,"Développement ASP.NET
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Laurent","","Dubois","","Viadeo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"laurent.dubois@ljvd.com SMTP Laurent J.V. Dubois","SMTP","Laurent Dubois (laurent.dubois@ljvd.com SMTP Laurent J.V. Dubois)",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,"L.D.",,,,,"Force de vente
+",,,,"Faible",,,,,,"Non spécifié"
+"","Laurent","","Hassid","","Intelligence économique","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"laurent.hassid@intelleco.com","SMTP","Laurent Hassid",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.H.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Laurent","J. V.","Dubois","","Viadeo","","Hub Vendre la force commerciale",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"laurent.dubois@ljvd.com","SMTP","Laurent J.V. Dubois",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.J.V.D.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Lauriane","","Laugier","","Http://Www.Pac-Recrutement.Com/","","Chargée de Recrutement",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(06) 66 80 13 13",,,,,,,,"lauriane.laugier@pac-recrutement.com","SMTP","Lauriane Laugier",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.L.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Loïc","","Bar","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"loicbar@gmail.com","SMTP","Loïc Bar (loicbar@gmail.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.B.",,"","",,"BlogEngine.NET développeur ASP.NET viadéo
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Ludovic","","Petiteau","","Sogeti","","","Espace Concorde
+Parc d'activité de l'aéroport
+120 lmpasse Jean-Baptiste Say",,,"34 470 Pérols","","","France",,,,,,,,,,,,,,,,,"(04) 67 83 45 71",,,,,,,,,"(06) 13 09 45 34",,,,,,,,"ludovic.petiteau@sogeti.com","SMTP","Ludovic Petiteau (ludovic.petiteau@sogeti.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.P.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Manuel","","Caballero","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"manuel.caballero@intelleco.com SMTP Manuel Caballero","SMTP",,,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"",,,,"Faible",,,,,,"Non spécifié"
+"","Marcelin","","Issoparack","","IP COMMUNICATION","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 66 27 87 00",,,,,,,,,"(06) 14 70 03 57",,,,,,,,"marcelin.issop@ipcommunication.fr","SMTP","Marcelin Issoparack (marcelin.issop@ipcommunication.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"M.I.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Maxime","","Sartorius","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"msartorius@sfg.fr","SMTP","Maxime Sartorius",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"M.S.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Mireille","","Mourzelas","","CIRAD","","Délégué aux échanges scientifiques internationaux",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"mireille.mourzelas@cirad.fr","SMTP","Mireille Mourzelas",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"M.M.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Nadine","","Plas","","","","",,,,,,,,,,,,,,,,,,,,,,,,"(08) 79 72 98 21",,,,,,"(01) 48 83 64 43",,,,,,,,,,,"nadine.plas@wanadoo.fr","SMTP","Nadine Plas",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"N.P.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Néotic","","Contact","","Nétoic","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"contact@neotic.fr","SMTP","contact@neotic.fr",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"N.C.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Nicolas","","Michaud","","Randstad","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 99 64 22 29",,,,,,,,,,,,,,,,,"ag.montpellier.ht@ag.randstad.fr","SMTP","Nicolas Michaud (ag.montpellier.ht@ag.randstad.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"N.M.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Olivia","","Démougin","","Viadéo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 72 91 32 75",,,,,,,,,,,"demougin@kicomm.com","SMTP","Demougin",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,"O.D.",,,,,,,,,"Faible",,,,,,"Non spécifié"
+"","Olivier","","Guilbaud","","Ex Coronis","","Directeur",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"+33 (0) 672 731 095",,,,,,,,"o.guilbaud@add-co.com","SMTP","Olivier Guilbaud (o.guilbaud@add-co.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"O.G.",,"","",,"Viadéo contact
+",,,,"Normale","Faux",,,,,"Non spécifié"
+,"Oveanet",,"S.A.R.L.",,"Oveanet Montpellier Europe",,"Position","7 rue Ferdinand Fabre",,,"34090","Montpellier",,"France",,,,,,,,,,,,,,,,"+33 4 67 79 27 46","+33 4 67 79 77 06",,,,,,,,,,,,,"+33 4 67 79 77 06",,,,"contact@oveanet.fr","SMTP",,,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"N’hésitez à nous faire parvenir vos demande par fax ou bien grace au formulaire ci-dessous.
+",,,,"Faible",,,,,,"Non spécifié"
+"","Patrick","","Jaures","","ELIT Software","","",,,,,,,,,,,,,,,,,,,,,,,,"(08) 70 46 69 24",,,,,,,,,"(06) 16 76 74 40",,,,,,,,"elitsoft@hotmail.fr","SMTP","Patrick Jaures (elitsoft@hotmail.fr)","patrick.jaures@sodevlog.com","SMTP","Patrick Jaures (patrick.jaures@sodevlog.com)",,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.J.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Paul","","Fieschi","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 86 41 32 87",,,"(06) 74 08 89 45",,,,,,,,"paul.fieschi@laposte.net","SMTP","Paul Fieschi (paul.fieschi@laposte.net)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.F.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Paul","","Picot","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"paul.picot@smarteo.com","SMTP","paul.picot@smarteo.com",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.P.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","Emmanuel","Floc'h","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"pefloch@spectacom.fr","SMTP","Pierre Emmanuel Floc'h (pefloch@spectacom.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.E.F.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","","Escande","","ITK","","Marketing",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"pierre.escande@itkweb.com","SMTP","Pierre Escande",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.E.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","","Lefranc","","Evenementiel","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"pl@mootproduction.com","SMTP","Pierre Lefranc",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.L.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","","Marmet","","Arguel","","Formateur Adhara",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"pierre.marmet@arguel.com","SMTP","Pierre Marmet",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.M.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","Yves","MAINGRE","","","","",,,,,,,,,,,,,,,,,,,,,,,,"0 870 511 694",,,,,,,,,,,,,,,,,"pym@orion6tm.com","SMTP","Pierre Yves MAINGRE",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.Y.M.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Raphaël","","Chaubet","","Villas Bella","","Entrepreneur",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(06) 10 76 17 77",,,,,,,,"r.chaubet@libertysurf.fr","SMTP","Raphaël Chaubet",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"R.C.",,"","",,"Rencontre du club business34 du 27/09/2007
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Robert","","Bailly","","ITG institut du temps géré","","Délégué",,,,,,,,,,,,,,,,,,,,,,,"+33 (0)4 67 86 50 94 ",,,,,,,,,,"+33 (0)6 14 65 03 64",,,,,,,,"rjbailly@free.fr","SMTP","Robert Bailly",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"R.B.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Romain","","Haudrechy","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"r.haudrechy@utechnology.com","SMTP","Romain Haudrechy",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"R.H.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Ronnie","","Garcia","","OVEA","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 67 00 00",,,,,,,,,"(06) 29 50 02 95",,,,,,,,"r.garcia@ovea.com","SMTP","Ronnie Garcia",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"R.G.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","S. A. R.","","Oveanet","","Oveanet Montpellier Europe",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"contact@oveanet.fr","SMTP","S. A. R. Oveanet (contact@oveanet.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"
+",,,,"Faible",,,,,,"Non spécifié"
+"","Sebastien","","Denis","","eQuiNeo","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"sebastien.denis@equineo.com","SMTP","Sebastien Denis (sebastien.denis@equineo.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.D.",,"","",,"Campagne télédev 09/2007
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Serge (chez","free)","PINATEL","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spinatel@free.fr","SMTP","Serge (chez free) PINATEL (spinatel@free.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,"
+",,,,"Faible",,,,,,"Non spécifié"
+"","Serge","","Cuenot","","CTP","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"cuenot.s@concept-travaux-publics.com","SMTP","Serge Cuenot (cuenot.s@concept-travaux-publics.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.C.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Serge","","Pinatel","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 55 62 85",,,,,,,,,,,"spinatel@free.fr","SMTP","Serge PINATEL",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.P.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"","Service","Clients","Tiscali","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"service.clients@tiscali.fr","SMTP","service.clients@tiscali.fr",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.C.T.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+"société","adoucileau","","","","Adoucil'Eau Manuel (SARL) ","","","",,,"80 av Pont Juvénal 34000 Montpellier","","","France",,,,,,,,,,,,,,,,,"(04) 67 64 88 88",,,,,,,,,,,,,,,,,"adoucileau@wanadoo.fr","SMTP"," (adoucileau@wanadoo.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"a.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Stevens","","Bernière","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ycyjay@yahoo.fr","SMTP","Stevens Bernière",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.B.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Support","","OVEA","","","","",,,,,,,,,,,,,,,,,,,,,,,,"(04) 67 67 00 00",,,,,,,,,,,,,,,,,"support@ovea.com","SMTP","Support OVEA",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.O.",,"","",,"Nasser
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sylvain","","Tourrière","","Easy-IT","","Facilitateur informatique",,,,,,,,,,,,,,,,,,,,,,,,"(09) 52 87 16 80",,,,,,,,,"(06) 75 04 22 93",,,,,,,,"sylvain@easy-it.fr","SMTP","Sylvain Tourrière (sylvain@easy-it.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.T.",,"","",,"Club business septembre 2007
+Easy-IT Zone de Jaccou
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sylvia","","Manzanares","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"(06) 12 96 69 41",,,,,,,,"sylvia_manzanares@hotmail.com","SMTP","Sylvia Manzanares",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.M.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sylvie","","Leray","","Le moulin des essarts","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"silvie.leray@wanadoo.fr","SMTP","Sylvie Leray",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.L.",,"","",,,,,,"Normale","Faux",,,,,"Non spécifié"
+,"Bertrand",,,,"Viadéo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"bertrand@arevatrip.com","SMTP","Thiébault",,,,,,,"0/0/00","0/0/00",,,,,,,,,"Normale",,,,,,,,,,,,,,"Faible",,,,,,"Non spécifié"
+"","Yannick","","Gilly","","SNA","","","223, Avenue Clément Ader
+Zone Castelnau 2000",,,"Castelnau Le Lez","","34170","France",,,,,,,,,,,,,,,,,"04.67.732.732",,,,,,,,,,,,,,,,,"yannick.gilly@sna-administration.fr","SMTP","Yannick Gilly",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"Y.G.",,"","",,"Tel: 04.67.732.732
+Fax: 04.67.423.763
+
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Yelena","","Tissova","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ytissova@voila.fr","SMTP","Yelena Tissova",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"Y.T.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Yves","","Chabert","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ychabert@forces.fr","SMTP","Yves Chabert",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"Y.C.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Fouad","Hamou","Zhara","","DFC","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"fouad@dfc-e.com","SMTP","Fouad Hamou Zhara (fouad@dfc-e.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.H.Z.",,"","",,"Plug été 2007
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Thibault","","Gachon","","Sigma","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"tg@sigma-groupe.com","SMTP","Thibault Gachon (tg@sigma-groupe.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"T.G.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Matthieu","","Faure","","Open-s","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"mfaure@open-s.com","SMTP","Matthieu Faure (mfaure@open-s.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"M.F.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Lilian","","Boccanfuso","","komuneid","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"lilian@komuneid.com","SMTP","Lilian Boccanfuso (lilian@komuneid.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"L.B.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Florian","","Herrard","","Sixième Sens","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"f.herrard@6-sens.fr","SMTP","Florian Herrard (f.herrard@6-sens.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"F.H.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"Monsieur","Jean","Christophe","Mazin","","POMIMMO","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"jcmazin@promimmo.com","SMTP","Jean Christophe Mazin (jcmazin@promimmo.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"J.C.M.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"M.","Emmanuel","","Mouton","","Synox","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emouton@groupe-synox.com","SMTP","Emmanuel Mouton (emouton@groupe-synox.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"E.M.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","WineMoment","","","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"winemoment@wanadoo.fr","SMTP","WineMoment (winemoment@wanadoo.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"W.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"Monsieur","Nordine","","Lamrani","","Lamdyne","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"lamrani@lamdyne.com","SMTP","Nordine Lamrani (lamrani@lamdyne.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"N.L.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Marc-Charly","","Ahnine","","Visual Project","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"mca@visualproject.com","SMTP","mca@visualproject.com",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"M.A.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Pierre","","Pradal","","nestoradvisors","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ppradal@nestoradvisors.com","SMTP","Pierre Pradal (ppradal@nestoradvisors.com)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"P.P.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sandrine","","Musel","","Maieutis","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"sandrine.musel@maieutis.fr","SMTP","Sandrine Musel (sandrine.musel@maieutis.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.M.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Virginie","","Febvre","","GFI Informatique","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"vfebvre@gfi.fr","SMTP","vfebvre@gfi.fr",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"V.F.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Anne","Sophie","Robert","","GFI Informatique","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"asrobert@gfi.fr","SMTP","Anne Sophie Robert (asrobert@gfi.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"A.S.R.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sabine","","Soulard-Chappelle","","","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"qse.evolution@wanadoo.fr","SMTP","Sabine Soulard-Chappelle (qse.evolution@wanadoo.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.S.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
+"","Sébastien","","Benjelloun","","Buro Systèmes","","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"sbenjelloun@burosystemes34.fr","SMTP","Sébastien Benjelloun (sbenjelloun@burosystemes34.fr)",,,,,,,"0/0/00","0/0/00",,,,,,,"",,"Normale",,"",,,"S.B.",,"","",,"
+",,,,"Normale","Faux",,,,,"Non spécifié"
