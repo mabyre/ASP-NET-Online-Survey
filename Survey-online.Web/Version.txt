@@ -1,3 +1,6 @@
+19/05/2016
+GitHub - Make it in english
+BRY_19052016
 
 Request.Browser.Type.Contains( "InternetExplorer" )
 pour gérer les boutons car avec Chrome impossible d'avoir deux lignes par bouton

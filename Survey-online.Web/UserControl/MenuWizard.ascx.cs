@@ -20,15 +20,16 @@ public partial class UserControl_MenuWizard : System.Web.UI.UserControl
             if ( Request.Browser.Type.Contains( "InternetExplorer" ) )
             {
                 // Je ne sais pas mettre /r/n dans le .ascx !
-                ButtonCreerQuestionnaire.Text = "Créez\r\nun questionnaire";
-                ButtonEditerPageAccueil.Text = "Editez la page d'accueil\r\nde vos interviewés";
-                ButtonAjouterQuestion.Text = "Ajoutez\r\ndes Questions";
-                ButtonViusaliser.Text = "Visualisez\r\nvos questionnaires";
-                ButtonRedigerEmail.Text = "Editez l'email\r\naux interviewés";
-                ButtonEditerPageAccueil.Text = "Editez\r\nla page d'accueil";
-                ButtonImporter.Text = "Importez la liste\r\ndes Interviewés";
-                ButtonEvoyerEmail.Text = "Envoyez les emails\r\naux Interviewés";
-                ButtonStatistiques.Text = "Dépouillez\r\nles statistiques";
+                // BRY_19052016
+                //ButtonCreerQuestionnaire.Text = "Créez\r\nun questionnaire";
+                //ButtonEditerPageAccueil.Text = "Editez la page d'accueil\r\nde vos interviewés";
+                //ButtonAjouterQuestion.Text = "Ajoutez\r\ndes Questions";
+                //ButtonViusaliser.Text = "Visualisez\r\nvos questionnaires";
+                //ButtonRedigerEmail.Text = "Editez l'email\r\naux interviewés";
+                //ButtonEditerPageAccueil.Text = "Editez\r\nla page d'accueil";
+                //ButtonImporter.Text = "Importez la liste\r\ndes Interviewés";
+                //ButtonEvoyerEmail.Text = "Envoyez les emails\r\naux Interviewés";
+                //ButtonStatistiques.Text = "Dépouillez\r\nles statistiques";
             }
 
             // Controler la largeur de la colonne qui contient le Menu

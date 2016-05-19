@@ -18,29 +18,27 @@
 </head>
 <body leftmargin="0" rightmargin="0">
 <form id="form1" runat="server">
-<asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" />
+<asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True" />
 
 <!-- Bouton toujours visibles -->
-<asp:UpdatePanel runat="server" ID="UpdatePanelToujoursVisible" Visible="false" >
+<asp:UpdatePanel runat="server" ID="UpdatePanelToujoursVisible" Visible="False" >
     <ContentTemplate>
         <asp:Panel ID="PanelAlwaysVisible" runat="server" Width="86px"
             BackColor="#C1C1C1" 
             ForeColor="DarkBlue"
-            BorderWidth="2" 
-            BorderStyle="solid" 
+            BorderWidth="2px" 
+            BorderStyle="Solid" 
             BorderColor="#C1C1C1" 
-            style="z-index: 1;">
+            style="z-index: 1;" meta:resourcekey="PanelAlwaysVisibleResource1">
             <span class="SpanHyperLinkStyle">
             <a href="#HautDePage" class="HyperLinkToujoursVisibleStyle">Haut de Page</a>
             </span>
         </asp:Panel>
         <ajaxToolkit:AlwaysVisibleControlExtender ID="AlwaysVisibleControlExtender" runat="server"
             TargetControlID="PanelAlwaysVisible"
-            VerticalSide="Top"
             VerticalOffset="5"
             HorizontalSide="Right"
-            HorizontalOffset="10"
-            ScrollEffectDuration=".1" />
+            HorizontalOffset="10" Enabled="True" />
     </ContentTemplate>
 </asp:UpdatePanel>
 
@@ -57,7 +55,7 @@
 </table>
 
 <!-- Menu lie au fichier Web.sitmap -->
-<asp:Panel ID="PanelMenu" runat="server">
+<asp:Panel ID="PanelMenu" runat="server" meta:resourcekey="PanelMenuResource1">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
     <td height="20px">
@@ -65,14 +63,14 @@
 </tr>
 <tr>
     <td>
-        <uc:MenuPanel ID="MenuPanel" runat="server" EnableViewState="true" />
+        <uc:MenuPanel ID="MenuPanel" runat="server" />
     </td>
 </tr>
 </table>
 </asp:Panel>
 
 <!-- Barre de navigation liee au fichier Web.sitmap -->
-<asp:Panel ID="PanelBarreNavigation" runat="server">
+<asp:Panel ID="PanelBarreNavigation" runat="server" meta:resourcekey="PanelBarreNavigationResource1">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
     <td>
@@ -80,14 +78,14 @@
         <table class="TableSiteMapPath" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="TdSiteMapPath" height="35" >
-    				<asp:SiteMapPath ID="SiteMapPath2" runat="Server" 
+    				<asp:SiteMapPath ID="SiteMapPath2" runat="server" 
     				CssClass="SiteMapPathStyle" 
     				PathSeparator=" » " 
     				RenderCurrentNodeAsLink="True" 
-    				PathSeparatorStyle-ForeColor="#999999"
-    				CurrentNodeStyle-ForeColor="#5282D4" 
     				ParentLevelsDisplayed="3" 
-    				ToolTip="Barre de Navigation">
+    				ToolTip="Barre de Navigation" meta:resourcekey="SiteMapPath2Resource1">
+    				    <CurrentNodeStyle ForeColor="#5282D4" />
+                        <PathSeparatorStyle ForeColor="#999999" />
     				</asp:SiteMapPath>
                 </td>
             </tr>
