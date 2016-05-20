@@ -1,5 +1,5 @@
 # ASP-NET-Survey-Online
-You are searching for a real profession solution for online survez. You want this solution to be free. You're at the right place.
+You are searching for a real profession solution for online survey. You need to do somme customers relationship management. You want this solution to be free. You're at the right place.
 
 # Requirements
 * Visual Studio 2013 +
