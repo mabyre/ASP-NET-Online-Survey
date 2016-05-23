@@ -11,6 +11,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using Sql.Web.Data;
 using UserControl.Web.Controls;
+using System.Globalization;
 
 //
 // C'est vraiment une grosse merde cette authentification Windows
@@ -25,6 +26,8 @@ public partial class Page_Login : PageBase
 {
     protected void Page_Load( object sender, EventArgs e )
     {
+        string culture = CultureInfo.CurrentCulture.Name;
+
         if ( User.Identity.IsAuthenticated == false )
         {
             // Donner le focus au bouton

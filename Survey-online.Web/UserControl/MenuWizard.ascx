@@ -15,10 +15,10 @@
         <td>
         </td>
         <td class="TableMenuWizardButtonStyle">
-            <asp:Button ID="ButtonCreerQuestionnaire" CssClass="ButtonMenuWizardStyle"
+            <asp:Button ID="ButtonCreerQuestionnaire" 
+                CssClass="ButtonMenuWizardStyle"
                 runat="server"
-                onclick="ButtonCreerQuestionnaire_Click" 
-                Text="" meta:resourcekey="ButtonCreerQuestionnaireResource1"/>
+                onclick="ButtonCreerQuestionnaire_Click" meta:resourcekey="ButtonCreerQuestionnaireResource1"/>
         </td>
     </tr>
     <tr>
