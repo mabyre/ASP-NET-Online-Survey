@@ -11,6 +11,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
+using System.Globalization;
 
 public partial class Control_MenuPanel: System.Web.UI.UserControl
 {
@@ -31,7 +32,16 @@ public partial class Control_MenuPanel: System.Web.UI.UserControl
 
             if ( Page.User.Identity.IsAuthenticated )
             {
-                MenuPanel.DataSource = SiteMap.Providers[ "MenuPanelSiteMap" ].RootNode.ChildNodes;
+                string culture = CultureInfo.CurrentCulture.Name;
+
+                if ( culture.Contains("en") )
+                {
+                    MenuPanel.DataSource = SiteMap.Providers[ "MenuPanelSiteMap-en" ].RootNode.ChildNodes;
+                }
+                else
+                {
+                    MenuPanel.DataSource = SiteMap.Providers[ "MenuPanelSiteMap" ].RootNode.ChildNodes;
+                }
                 MenuPanel.DataBind();
             }
         }
