@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonAjouterQuestionEnchaineeResource1.Text" xml:space="preserve">
     <value>Ajouter +Questions</value>
@@ -276,16 +276,16 @@
   <data name="ImageButtonExpandNavigationResource1.ToolTip" xml:space="preserve">
     <value>Afficher le volet de contrôle de la navigation, ajouter ou supprimer des moyens de navigation</value>
   </data>
+  <data name="LabelAccueilResource1.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="LabelBonjourResource1.Text" xml:space="preserve">
+    <value>Bonjour : </value>
+  </data>
   <data name="LabelNombreQuestionnairesResource1.Text" xml:space="preserve">
     <value>Vous avez actuellement </value>
   </data>
   <data name="LabelNombreQuestionnairesResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LabelUtilisateurResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LabelUtilisateurResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ListItemResource1.Text" xml:space="preserve">

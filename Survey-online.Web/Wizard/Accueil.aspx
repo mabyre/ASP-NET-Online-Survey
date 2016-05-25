@@ -4,22 +4,25 @@
     AutoEventWireup="true" 
     CodeFile="Accueil.aspx.cs" 
     Inherits="Wizard_Accueil" 
-    Title="Accueil" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+    Title="Accueil" 
+    culture="auto" 
+    meta:resourcekey="PageResource1" 
+    uiculture="auto" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<a name="HautDePage"></a>
+    <a name="HautDePage"></a>
 <div class="DivPageAccueilStyle">
 
 <table border="0" cellpadding="5px" cellspacing="3px" width="550px">
     <tr>
         <td>
-            <h3>Accueil</h3>
+            <h3><asp:Label ID="LabelAccueil" runat="server" meta:resourcekey="LabelAccueilResource1" Text="Accueil" /></h3>
         </td>
     </tr>
     <tr>
         <td class="LoginUserText" align="center">
-            <label>Bonjour : </label>
-            <asp:Label ID="LabelUtilisateur" runat="server" meta:resourcekey="LabelUtilisateurResource1"/>
+            <asp:Label ID="LabelBonjour" runat="server" meta:resourcekey="LabelBonjourResource1" Text="Bonjour :" />
+            <asp:Label ID="LabelUtilisateur" runat="server" />
             (<asp:LoginName ID="LoginName1" runat="server" meta:resourcekey="LoginName1Resource1" />)
         </td>
     </tr>

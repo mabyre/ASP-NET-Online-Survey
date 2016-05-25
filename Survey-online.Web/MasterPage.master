@@ -1,4 +1,7 @@
-﻿<%@	Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="Default_master"	%>
+﻿<%@	Master Language="C#" 
+    CodeFile="MasterPage.master.cs" 
+    Inherits="Default_master" %>
+
 <%@ Register TagPrefix="uc" TagName="WebContent" Src="~/UserControl/WebContent.ascx" %>
 <%@ Register Src="~/UserControl/MenuPanel.ascx" TagName="MenuPanel" TagPrefix="uc" %>
 <%@ Register Src="~/UserControl/LoginBanner.ascx" TagName="LoginBanner" TagPrefix="usrc" %>
@@ -78,14 +81,15 @@
         <table class="TableSiteMapPath" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="TdSiteMapPath" height="35" >
-    				<asp:SiteMapPath ID="SiteMapPath2" runat="server" 
-    				CssClass="SiteMapPathStyle" 
-    				PathSeparator=" » " 
-    				RenderCurrentNodeAsLink="True" 
-    				ParentLevelsDisplayed="3" 
-    				ToolTip="Barre de Navigation" meta:resourcekey="SiteMapPath2Resource1">
-    				    <CurrentNodeStyle ForeColor="#5282D4" />
-                        <PathSeparatorStyle ForeColor="#999999" />
+    				<asp:SiteMapPath ID="SiteMapPath2" 
+                        runat="server" 
+    				    CssClass="SiteMapPathStyle" 
+    				    PathSeparator=" » " 
+    				    RenderCurrentNodeAsLink="True" 
+    				    ParentLevelsDisplayed="3" 
+    				    ToolTip="Barre de Navigation" meta:resourcekey="SiteMapPath2Resource1">
+    				        <CurrentNodeStyle ForeColor="#5282D4" />
+                            <PathSeparatorStyle ForeColor="#999999" />
     				</asp:SiteMapPath>
                 </td>
             </tr>
