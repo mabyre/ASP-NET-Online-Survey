@@ -14,6 +14,8 @@ public partial class Default_master : System.Web.UI.MasterPage
 {
     protected void Page_Load( object sender, EventArgs e )
     {
+        string culture = System.Globalization.CultureInfo.CurrentCulture.Name;
+
         if ( IsPostBack == false )
         {
             PanelMenu.Visible = Page.User.Identity.IsAuthenticated;
