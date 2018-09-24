@@ -1,7 +1,7 @@
 # ASP-NET-Survey-Online
 You are searching for a truly professional solution for online survey. You need to do some customers relationship management. You want this solution to be free. You're at the right place.
 
-Find all documentation on : http://sodevlog-online-survey.blogspot.fr/
+Find all documentation and retreive us on : http://sodevlog-online-survey.blogspot.fr/
 
 # Requirements
 * Visual Studio 2013 +
