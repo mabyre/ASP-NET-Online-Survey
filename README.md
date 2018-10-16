@@ -13,6 +13,11 @@ Find all documentation and retreive us on : http://sodevlog-online-survey.blogsp
 1. Builld and run solution to load website in the browser
 1. Use admin/admin to log into website administration
 
-This will be developped
+# High level Features
+Users can respond anonymously or authenticated.
 
-## So stay tuned
+Manager can share export/import surveys
+
+Administrateur manage community of managers and users
+
+Very great ability to interrogate
