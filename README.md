@@ -21,3 +21,4 @@ Manager can share export/import surveys
 Administrateur manage community of managers and users
 
 Very great ability to interrogate
+very effective statistics tabulation form
