@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <br />
-<asp:CheckBox ID="CheckBoxTextAligne" runat="server" Text=""TextAligne" />
+<asp:CheckBox ID="CheckBoxTextAligne" runat="server" Text=""TextAligne"></asp:CheckBox>
 <br />
     <input type="radio" size="24px" style="background:#00FF00; border:solid 3px #FF0000" />BBB
     <br />
