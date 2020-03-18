@@ -6,6 +6,7 @@ Find all documentation and retreive us on dedicated blog : http://sodevlog-onlin
 # Requirements
 * Visual Studio 2013 +
 * ASP.NET 4.5 +
+
 2020 - The project works with Visual Studio COmmunity 2019 Hey!
 
 # Get started
