@@ -28,15 +28,12 @@ Very great ability to interrogate
 Very effective statistics tabulation form
 
 #### Notes from 2020/03/17
-I did can open, compile and run the solution under Visual Studio Community 2019
-which is very nice
+I did can open, compile and run the solution under Visual Studio Community 2019.
+Which is very nice.
 
-But when I update the connection strings to attach ASPNET DB and QUESTIONNAIRE DB 
+When I update the connection strings to attach databases ASPNETDB and QUESTIONNAIREDB 
 to SqlLocalDB server the message from the application was :
 
 **The user instance login flag is not supported on this version of SQL Server. The connection will be closed.**
 
-Which is less and less nice because for now i don't know what to do with.
-
-
-
+Which is less and less nice, but I find the solution and make a commit see the Web.config file.
