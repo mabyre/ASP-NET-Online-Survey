@@ -8,12 +8,13 @@ Find all documentation and retreive us on dedicated blog : http://sodevlog-onlin
 * ASP.NET 4.5 +
 
 2020 - The project works with Visual Studio Community 2019 Hey!
+commit made to use SQL Local DB see Web.config
 
 # Get started
 1. Clone repository
 1. Open solution in Visual Studio 2013 or more
 1. Builld and run solution to load website in the browser
-1. Use admin/admin to log into website administration
+1. Use **admin/admin** to log into website administration
 
 # High level Features
 Users can respond anonymously or authenticated.
