@@ -7,8 +7,8 @@ Find all documentation and retreive us on dedicated blog : http://sodevlog-onlin
 * Visual Studio 2013 +
 * ASP.NET 4.5 +
 
-2020 - The project works with Visual Studio Community 2019 Hey!
-commit made to use SQL LocalDB see Web.config
+2020 - The project works with Visual Studio Community 2019 Yes!
+commit made to use SQL LocalDB see the Web.config file
 
 # Get started
 1. Clone repository
