@@ -19,13 +19,15 @@ commit made to use SQL LocalDB see the Web.config file
 # High level Features
 Users can respond anonymously or authenticated.
 
-Manager can share export/import surveys
+Manager can share export/import surveys.
 
-Administrateur manage community of managers and users
+Administrator manage a community of Interviewers who manage survey and users.
 
-Very great ability to interrogate
+Very great ability to interrogate.
 
-Very effective statistics tabulation form
+Very effective statistics tabulation form with pivot table to analyze data.
+
+Survey's graphics fully customizable to your needs with your logos, styles.
 
 #### Notes from 2020/03/17
 I did can open, compile and run the solution under Visual Studio Community 2019.
