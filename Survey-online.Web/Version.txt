@@ -1,36 +1,40 @@
+2020/03/19
+Clone Sources on Windows 10 under a Visual Studio 2019 platforme of developement, compile, run
+it works! I can make some screen snapshot to make some little more documentation
+
 19/05/2016
 GitHub - Make it in english
 BRY_19052016
 
 Request.Browser.Type.Contains( "InternetExplorer" )
-pour gérer les boutons car avec Chrome impossible d'avoir deux lignes par bouton
+pour gÃ©rer les boutons car avec Chrome impossible d'avoir deux lignes par bouton
 
 24/02/2016
 
 BRY20022016 PageValidation PageErreur
 
-20 février 2016
+20 fÃ©vrier 2016
 
-Je réussi à installer un exemplaire des sources sous Windows 7 pro IIS 7.5 Visual Studio 2013
+Je rÃ©ussi Ã  installer un exemplaire des sources sous Windows 7 pro IIS 7.5 Visual Studio 2013
 
-11 décembre 2010
+11 dÃ©cembre 2010
 ...
-Entre ces deux dates, j'ai perdu les sources dans une machine virtuelle qui à disparue !
+Entre ces deux dates, j'ai perdu les sources dans une machine virtuelle qui Ã  disparue !
 ...
 19 oct 2010
 
-dans Poll/List "2 - Ajouter" remplacé par "Ajouter"
+dans Poll/List "2 - Ajouter" remplacÃ© par "Ajouter"
 
 AME19102010
 et si on essayait de paginer Poll/List il y a encore une folle qui veut faire un Questionnaire de 140 questions.
-à la lecture des articles sur le sujet on est très mal barré !
+Ã  la lecture des articles sur le sujet on est trÃ¨s mal barrÃ© !
 mais finalement le code :
 http://blogs.codes-sources.com/teamitelios/archive/2008/05/30/asp-net-r-aliser-une-pagination-avec-un-objet-datalist.aspx
-n'est pas difficile à implémenter ...
+n'est pas difficile Ã  implÃ©menter ...
 
 12 oct 2010 
 
-ca y est je me décide a mettre la réorganisation des rangs des Questions et des Réponses 
+ca y est je me dÃ©cide a mettre la rÃ©organisation des rangs des Questions et des RÃ©ponses 
 dans Poll/List
 
 Je ne comprends toujours pas pourquoi on n'a pas un bouton de menu : "Tester le questionnaire"
@@ -42,9 +46,9 @@ AME12102010
 travailler encore le formulaire de modification d'une question :
 essayer que lorsqu'une ouverte existe et qu'on rentre en modification
 faire Update lorsque clic sur Ok
-NON idiot il vaut mieux a ce moment là modifier le label de la réponse textuelle dans Poll/List.aspx
+NON idiot il vaut mieux a ce moment lÃ  modifier le label de la rÃ©ponse textuelle dans Poll/List.aspx
 
-Par contre faire la même pour les rangs de réponse que pour les rangs de question : Rang+1 Rang-1
+Par contre faire la mÃªme pour les rangs de rÃ©ponse que pour les rangs de question : Rang+1 Rang-1
 
 4 oct 2010
 
@@ -61,23 +65,23 @@ correction du tooltip dans Questionnaire/Edit.aspx
 
 1 oct 2010
 
-AME01102010 centré la page login qui ne l'est plus
-création de TdMasterPageColonneGauche et de TdMasterPageLoginView pour les faire disparaitre sinon
-ce sont eux qui décentre la page Login
+AME01102010 centrÃ© la page login qui ne l'est plus
+crÃ©ation de TdMasterPageColonneGauche et de TdMasterPageLoginView pour les faire disparaitre sinon
+ce sont eux qui dÃ©centre la page Login
 
 27/09/2010
 
 Ajout d'un Tooltip pour le LabelReponseOuverte de 
 
 BUG27092010
-Je me retrouve avec dans la table PollAnswers une réponse de Rank == NULL !!!
-Comment l'utilisateur à t-il pu faire cela ???!!!
-Il s'agit d'une réponse ouverte seule dans une question dont Rank == NULL
+Je me retrouve avec dans la table PollAnswers une rÃ©ponse de Rank == NULL !!!
+Comment l'utilisateur Ã  t-il pu faire cela ???!!!
+Il s'agit d'une rÃ©ponse ouverte seule dans une question dont Rank == NULL
 Pour relancer l'application je corrige la BD mais je ne trouve pas comment il a fait.
 
 25/09/2010
 
-Bouton contextuel "Ajouter" des questions quand on rentre dans l'édition d'une question existante.
+Bouton contextuel "Ajouter" des questions quand on rentre dans l'Ã©dition d'une question existante.
 il faut pouvoir ajouter des questions.
 /Poll/List.aspx
 /Wizard/Question.aspx
@@ -87,70 +91,70 @@ Le style de la PageTermine me semble pourri !?
 supression de DivWebContentPageStyle dans \Poll\Termine.aspx
 
 Saloperie de merde de IE8
-j'ai remarqué depuis longtemps déjà que mon FCKeditor se comporte mal sur le menu contextuel de création des 
+j'ai remarquÃ© depuis longtemps dÃ©jÃ  que mon FCKeditor se comporte mal sur le menu contextuel de crÃ©ation des 
 tableaux les colonnes du Menu contextuel se superposent !
 Je cherche un patch ...
-Cette incompatibilité vient du passage IE7 à IE8, je remarque que sur la machine de dev avec IE7 
+Cette incompatibilitÃ© vient du passage IE7 Ã  IE8, je remarque que sur la machine de dev avec IE7 
 FCKeditor v2.5.1 se comporte correctement tandis qu'avec IE8 les menus contextuels se superposent et deviennent inutilisables
-il existe FCKeditor v2.6.6 dont je trouve les sources que j'installe et ça fonctionne !
+il existe FCKeditor v2.6.6 dont je trouve les sources que j'installe et Ã§a fonctionne !
 sur IE7 et IE8 vivement IE9 !!!
 
-En finir avec cette histoire de serveur SMTP en donnant la possiblité à l'utilisateur
+En finir avec cette histoire de serveur SMTP en donnant la possiblitÃ© Ã  l'utilisateur
 d'utiliser le serveur de test de l'intervieweur
 
 24/09/2010
 
-je voudrais faire disparaitre un ou deux retours chariot du questionnaire en mode non authentifié
+je voudrais faire disparaitre un ou deux retours chariot du questionnaire en mode non authentifiÃ©
 ce n'est pas propre.
-il vaut mieux laisser l'initiative à l'utilisateur en configurant les pages
+il vaut mieux laisser l'initiative Ã  l'utilisateur en configurant les pages
 que d'imposer des espaces inutiles que l'utilisateur ne peut pas supprimer
 Il faut penser a modifier les pages de l'intervieweur pour les nouveaux utilisateurs ...
 
 02/08/2010
 
-COR02082010 correction problème avec PanelAideStyle dans Poll/Manage.aspx
+COR02082010 correction problÃ¨me avec PanelAideStyle dans Poll/Manage.aspx
 AME02082010 ajout d'un bouton impression dans Poll/List.aspx
 
 01/08/2010
 
-Le volet "Données membre" dans administrer est visible par tous les utilisateurs
+Le volet "DonnÃ©es membre" dans administrer est visible par tous les utilisateurs
 
 Correction d'un bug formulaire : Poll/Questionnaire.aspx
-Nouveau dans les CSS PanelAideStyle à comme height : 0px
+Nouveau dans les CSS PanelAideStyle Ã  comme height : 0px
 dans les styles le panneau de control avec la CssClass PanelAideStyle et il avait disparu !
 
 30/07/2010
 
-Je pouvais pas laiser le bouton Télécharger sur la page ImportExport.aspx avec l'expiration l'utilisateur
-est paumé, j'ai du créer un lien avec une target="_blank" c'est bien plus propre.
+Je pouvais pas laiser le bouton TÃ©lÃ©charger sur la page ImportExport.aspx avec l'expiration l'utilisateur
+est paumÃ©, j'ai du crÃ©er un lien avec une target="_blank" c'est bien plus propre.
 
-AdminMemberDataFiles pour traiter les fichiers des données membre
-Ajout de l'information "Abonnement crédits réponses :" dans l'email "Nouvelle réponse"
+AdminMemberDataFiles pour traiter les fichiers des donnÃ©es membre
+Ajout de l'information "Abonnement crÃ©dits rÃ©ponses :" dans l'email "Nouvelle rÃ©ponse"
 
 28/07/2010
 
-AME28072010 le lien "Vos réponses" n'apparait que si Valider ou Valider à la fin est coché.
-NON ! j'ai pensé que le lien ne devait s'afficher que si Valider ou Valider à la fin était cochées
-mais non même si elle ne sont pas cochées l'interviewé peut voir ses réponses ...
+AME28072010 le lien "Vos rÃ©ponses" n'apparait que si Valider ou Valider Ã  la fin est cochÃ©.
+NON ! j'ai pensÃ© que le lien ne devait s'afficher que si Valider ou Valider Ã  la fin Ã©tait cochÃ©es
+mais non mÃªme si elle ne sont pas cochÃ©es l'interviewÃ© peut voir ses rÃ©ponses ...
 Il faudrait donc rajouter un bit une option du Questionnaire ... j'ai pas envie ! FAFA vas te faire foutre ...
 
-Je vais traiter le problème FAFA avec le line "Vos réponses"
+Je vais traiter le problÃ¨me FAFA avec le line "Vos rÃ©ponses"
 
 J'ajoute le gif de l'update panel pour faire patienter l'utilisateur dans ImportExport
 
 26/07/2010
 
-J'ai passé la journée à essayer de faire que les messages de fin de traitement s'affichent tous seuls
+J'ai passÃ© la journÃ©e Ã  essayer de faire que les messages de fin de traitement s'affichent tous seuls
 impossible HttpContext.Current est perdu et AnalyserFichier() ne peut pas travailler dessus sous peine d'erreur
 grave plantage complet
 
 23/07/2010
 
-on avait oublié de supprimer les scores ...
+on avait oubliÃ© de supprimer les scores ...
 
 compatibilite ascendante
 
-BUG23072010 : depuis la modification de l'enregistrement d'un interviewés
+BUG23072010 : depuis la modification de l'enregistrement d'un interviewÃ©s
 on enregistrement plus les anonymes Personne.Create() filtre !!!
 
 20/07/2010
@@ -171,25 +175,25 @@ Settings
 Il faut creer un gros Objet qui contient tout les Objets du Membre
 QuestionnaireCollection
     QuestionsCollection
-    RéponsesCollection
+    RÃ©ponsesCollection
         VotesCollection
 PersonneCollection        
-Données du Membre
+DonnÃ©es du Membre
     StyleWeb ?
     MemberSettings
 
 19/07/2010
 
-Correction faute d'orthographe dans l'email de connexion envoyé à l'admin
+Correction faute d'orthographe dans l'email de connexion envoyÃ© Ã  l'admin
 
-LogonInterviewe retourne un message à l'utilisateur, la séquence %AD est mal interprétée dans l'url
-J'ai modifié pour ce message s'affiche dans PageValidation et non plus PageErreur
+LogonInterviewe retourne un message Ã  l'utilisateur, la sÃ©quence %AD est mal interprÃ©tÃ©e dans l'url
+J'ai modifiÃ© pour ce message s'affiche dans PageValidation et non plus PageErreur
 mais je ne trouve pas le moyen de ne pas utiliser %AD c'est une catastrophe
 il faudrait ne plus passer par l'url bonjour les modifes !
 
 pourquoi OnEmailSent et OnEmailFailed ne fontionnent pas ? je sais plus ...
-en fait on ne veut pa déléguer car on veut afficher le status donc je ne sais finalement pas trop 
-à quoi servent ces fonctions
+en fait on ne veut pa dÃ©lÃ©guer car on veut afficher le status donc je ne sais finalement pas trop 
+Ã  quoi servent ces fonctions
 
 17/07/2010
 
@@ -198,41 +202,41 @@ OPT17072010
 
 16/07/2010
 
-Roadmap correction à faire :
-Member/Edit.aspx ajouté le nombre de Réponse paramétré pour l'abonné.
+Roadmap correction Ã  faire :
+Member/Edit.aspx ajoutÃ© le nombre de RÃ©ponse paramÃ©trÃ© pour l'abonnÃ©.
 
 Il ne faut pas faire += dans l'abonnement de l'utilisateur ca n'a pas de sens
-ca serait bien d'afficher les date dans Interviewés pour les vote anonymes ...
+ca serait bien d'afficher les date dans InterviewÃ©s pour les vote anonymes ...
 
 13/07/2010
 
 AME13072010
-Si une sous-population est à l'étude PersonnesOntReponduATout.Count != 0
+Si une sous-population est Ã  l'Ã©tude PersonnesOntReponduATout.Count != 0
 Quand on clique sur le bouton Afficher "Toutes les reponses"
-on n'affiche plus toutes les réponses amais uniquement les réponses de la sous-population
-C'est pas fort ça !
+on n'affiche plus toutes les rÃ©ponses amais uniquement les rÃ©ponses de la sous-population
+C'est pas fort Ã§a !
 
 Attention pour utiliser Link et les fonctions de tri la colonne DateFinAbonnement de l'utilisateur ne peut rester NULL.
-il faut décocher la case !
+il faut dÃ©cocher la case !
 
 Ajout de l'information membre.DateFinAbonnement.ToShortDateString() dans l'email de connexion d'un utilisateur
 
 12/07/2010
 
-Compléter le BUG05062010 12072010
+ComplÃ©ter le BUG05062010 12072010
 
 06/07/2010
 
 Conception du marketing de vente par objets
-Remplacement du rôle "Gratuit" par "Decouverte"
-Deux type de limites gérables dans l'interface admin
-Découverte ou "gratuit" et standard
-L'utilisateur est créé avec les limites Découverte puis on le passe en Standard
+Remplacement du rÃ´le "Gratuit" par "Decouverte"
+Deux type de limites gÃ©rables dans l'interface admin
+DÃ©couverte ou "gratuit" et standard
+L'utilisateur est crÃ©Ã© avec les limites DÃ©couverte puis on le passe en Standard
 
 30/06/2010
 
-Remplacement du rôle "Limité" par le rôle "Gratuit"
-Le rôle gratuit ne sert qu'à afficher un message
+Remplacement du rÃ´le "LimitÃ©" par le rÃ´le "Gratuit"
+Le rÃ´le gratuit ne sert qu'Ã  afficher un message
 
 Ajout dans MembreInfo
 LimiteQuestionnaires
@@ -241,14 +245,14 @@ LimiteInterviewes
 LimiteReponses
 
 Conception des limitations
-pour vendre, il faut des limitations différentes pour chaque utilisateur
-une equête avec 20 questions et 500 contacts et 150 réponse en terme de ressources serveur n'est pas la même
-que 60 questions 3500 contacts et 250 réponses !
+pour vendre, il faut des limitations diffÃ©rentes pour chaque utilisateur
+une equÃªte avec 20 questions et 500 contacts et 150 rÃ©ponse en terme de ressources serveur n'est pas la mÃªme
+que 60 questions 3500 contacts et 250 rÃ©ponses !
 
-j'ai récupéré du serveur les modifs faites sur l'IGraphique
+j'ai rÃ©cupÃ©rÃ© du serveur les modifs faites sur l'IGraphique
 
-optimisation suite à remarques faites par utilisateur
-ajout de QuestionnaireID dans PollVotes pour eviter les jointures à tirroire
+optimisation suite Ã  remarques faites par utilisateur
+ajout de QuestionnaireID dans PollVotes pour eviter les jointures Ã  tirroire
 dbo.PollVoteCreate.SQL
 dbo.GetPollVotes.SQL
 dbo.GetPollVotesByQuestionnaireID.SQL
@@ -256,17 +260,17 @@ ScriptMAJQuestionnaireIDPollVote.sql
 27/06/2010
 
 Saturation du serveur. Il y a plus de 24000 votes dans la BD !?!
-Après une analyse au TraceReporter
-Optimisation des requêtes GetPollVotesByQuestionnaireID et GetPollVotes
+AprÃ¨s une analyse au TraceReporter
+Optimisation des requÃªtes GetPollVotesByQuestionnaireID et GetPollVotes
 Ajout enfin de QuestionnaireID dans PollVote
-Création du script ScriptMAJQuestionnaireIDPollVote.sql pour mettre à jour les anciennes données.
+CrÃ©ation du script ScriptMAJQuestionnaireIDPollVote.sql pour mettre Ã  jour les anciennes donnÃ©es.
 
 25/06/2010
 
-Ajout d'un bouton Supprimer pour aller de Contact\Manage à Contact\Email
+Ajout d'un bouton Supprimer pour aller de Contact\Manage Ã  Contact\Email
 
 AME25062010
-Suppression de l'info en dur "Bonjour Nom Prénom" et configuration dans 
+Suppression de l'info en dur "Bonjour Nom PrÃ©nom" et configuration dans 
 PageAccueil "Tout le Monde"
 Supression de <asp:Label ID="LabelUtilisateurAuthentifie"
 de LabelUserInRoles
@@ -275,45 +279,45 @@ dans : Questionnaire.Web\Accueil.aspx
 18/06/2010
 
 BUG19062010
-petit problème dans Poll/Manage.aspx
-on a toujours le message : "Erreur : Choix Min est supérieur à Choix Max"
+petit problÃ¨me dans Poll/Manage.aspx
+on a toujours le message : "Erreur : Choix Min est supÃ©rieur Ã  Choix Max"
 
-Dans le Menu, j'ai inversé 
+Dans le Menu, j'ai inversÃ© 
 Questionnaire.Web\Web.sitemap
-J'ai inversé Wizard/Question.aspx et Poll/Manage.aspx qui est formulaire "trop compliqué"
+J'ai inversÃ© Wizard/Question.aspx et Poll/Manage.aspx qui est formulaire "trop compliquÃ©"
 
-Supression de la case à cocher "Tous" pour l'admin cela ne servait à rien !!!
+Supression de la case Ã  cocher "Tous" pour l'admin cela ne servait Ã  rien !!!
 dans Contact\Manage.aspx et Contact\Email.aspx 
 cbss.Add( "CheckBoxTous", false )
 
 Tests et validation :
 l'import de contacts outlook est toujours merdique
-La colonne utilisée pour Téléphone est : Téléphone (domicile)
-c'est bon à savoir ...
+La colonne utilisÃ©e pour TÃ©lÃ©phone est : TÃ©lÃ©phone (domicile)
+c'est bon Ã  savoir ...
 
 17/06/2010
 
-Il y a un vrai problème avec la mise a jour d'un contact, l'intervieweur peut 
-modifier et faire que deux interviewés aient la meme adresse email ou le meme telephone...
-J'ai envie de supprimer la possibilité de mettre a jour un contact dans :
+Il y a un vrai problÃ¨me avec la mise a jour d'un contact, l'intervieweur peut 
+modifier et faire que deux interviewÃ©s aient la meme adresse email ou le meme telephone...
+J'ai envie de supprimer la possibilitÃ© de mettre a jour un contact dans :
 Contact/Manage.aspx
 ShowEditButton="False"
 
-Suppression de la colonne Code dans Contact/Manage.aspx qui ne sert vraiment à rien !!!
+Suppression de la colonne Code dans Contact/Manage.aspx qui ne sert vraiment Ã  rien !!!
 AME17062010
 
 15/06/2010
 
-Version Téléphone
-- Ajout de l'information téléphone dans le formulaire Interviewés
+Version TÃ©lÃ©phone
+- Ajout de l'information tÃ©lÃ©phone dans le formulaire InterviewÃ©s
 
-Logique d'enregistrement d'un Interviewé
-il fallait forcément un email maintenant :
-si téléphone est présent pas besoin d'email
+Logique d'enregistrement d'un InterviewÃ©
+il fallait forcÃ©ment un email maintenant :
+si tÃ©lÃ©phone est prÃ©sent pas besoin d'email
 
 AME16062010
-modification de la procedure stockée [PersonneCreate]
-pour tester PersonneTelephonePerso dans l'unicité
+modification de la procedure stockÃ©e [PersonneCreate]
+pour tester PersonneTelephonePerso dans l'unicitÃ©
 
 13/06/2010
 
@@ -322,13 +326,13 @@ Modifier ajouter : ValidateRequest="false" si on veut pouvoir mettre des <br/> d
 
 
 C'est clair, je n'y arrive pas
-Autre axe limité le Questionnaire d'exemple et multiplier les exemples simplement
-Il faut également avoir un questionnaire accesible sur le site et 
-un questionnaire copié différent 
+Autre axe limitÃ© le Questionnaire d'exemple et multiplier les exemples simplement
+Il faut Ã©galement avoir un questionnaire accesible sur le site et 
+un questionnaire copiÃ© diffÃ©rent 
 
-J'aimerais éviter le fait que les utilisateurs limités suppriment le questionnaire d'exemple 
+J'aimerais Ã©viter le fait que les utilisateurs limitÃ©s suppriment le questionnaire d'exemple 
 pour gagner en nombre de qestions !!!
-Il faut partir du code d'accès réservé à la copie d'un questionnaire exemple 
+Il faut partir du code d'accÃ¨s rÃ©servÃ© Ã  la copie d'un questionnaire exemple 
 lors de l'enregistrement de l'utilisateur CodeAccesQuestionnaireExemple
 
 09/06/2010
@@ -338,32 +342,32 @@ Questionnaire-en-ligne-Aide.aspx#ImportFichierInterviewe
 Livraison partielle  : Contact\Manage.aspx
 
 Besoin de Laurent VRONSKI : 
-- l'utilisateur entre la liste des interviewés par Nom, Numéro de téléphone
-- l'intervieweur se connecte, voit une liste des interviewés, appelle et remplie les réponses au téléphone
+- l'utilisateur entre la liste des interviewÃ©s par Nom, NumÃ©ro de tÃ©lÃ©phone
+- l'intervieweur se connecte, voit une liste des interviewÃ©s, appelle et remplie les rÃ©ponses au tÃ©lÃ©phone
 
 Spec :
-- format de contacts à importer
-- visualisation du numéro de téléphone
-- création d'un rôle intervieweur 
-  avec un formulaire permettant de choisir un intervieweur à interroger par téléphone
+- format de contacts Ã  importer
+- visualisation du numÃ©ro de tÃ©lÃ©phone
+- crÃ©ation d'un rÃ´le intervieweur 
+  avec un formulaire permettant de choisir un intervieweur Ã  interroger par tÃ©lÃ©phone
 
 Complication :
-plusieurs intervieweurs en même temps travaillant sur le même questionnaire.
+plusieurs intervieweurs en mÃªme temps travaillant sur le mÃªme questionnaire.
 
-Attention si Anonymat est coché, le formulaire Contact\RegisterCall.aspx
-Ne fonctionne pas ! car l'interviewé n'a pas besoin de s'authentifier
+Attention si Anonymat est cochÃ©, le formulaire Contact\RegisterCall.aspx
+Ne fonctionne pas ! car l'interviewÃ© n'a pas besoin de s'authentifier
 
-Contact\Login.aspx fonctionne car l'interviewé doit être déjà enregistré et s'authentifie
+Contact\Login.aspx fonctionne car l'interviewÃ© doit Ãªtre dÃ©jÃ  enregistrÃ© et s'authentifie
 
 Rappel de Laurent VRONSKI : BID on est trop loin de son besoin !!!
 
-Comment on réalise une enquête par téléphone ?
-pas besoin de créer un adresse email !
+Comment on rÃ©alise une enquÃªte par tÃ©lÃ©phone ?
+pas besoin de crÃ©er un adresse email !
 AME09062010
 
 07/06/2010
 
-Pour avoir le ajaxToolkit:CalendarExtender en français il suffit d'ajouter :
+Pour avoir le ajaxToolkit:CalendarExtender en franÃ§ais il suffit d'ajouter :
 <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" />
 dans : F:\Visual Studio 2005\Questionnaire\Questionnaire.Web\MasterPage.master
 Pourquoi s'en priver !!!
@@ -385,7 +389,7 @@ BUG05062010
 
 L'utilisateur s'appropie le questionnaire de l'interviewveur
 
-Galère lorsque ajout de questions à un questionnaire existant si on clique sur Tester :
+GalÃ¨re lorsque ajout de questions Ã  un questionnaire existant si on clique sur Tester :
 pareil :
 Message de l'application 
 Il n'y a pas de Questionnaire.
@@ -393,8 +397,8 @@ Il n'y a pas de Questionnaire.
 On voyait des choses bizarres un utilisateur pouvait pourrir le questionnaire de l'Intervieweur
 
 Questionnaire/Copier.aspx?QuestionnaireID=167
-il y a une mauvaise mis à jour de la liste des questionnaires pour l'utilisateur
-s'il a copié un StyleWeb et qu'il fait Questionnaire->Style : 
+il y a une mauvaise mis Ã  jour de la liste des questionnaires pour l'utilisateur
+s'il a copiÃ© un StyleWeb et qu'il fait Questionnaire->Style : 
 Message de l'application 
 Il n'y a pas de Questionnaire. 
 on arrive de Poll/Questionnaire.aspx?StyleWeb=1 
@@ -403,7 +407,7 @@ que se passe t-il quand on fait copier ?...
 si on relance on a bien :
 SessionState.Questionnaire.MembreGUID == SessionState.MemberInfo.MembreGUID
 
-decouverte avec stuppeur dans l'appli le questionnaire "StyleWeb" a été pourri par un utilisateur !
+decouverte avec stuppeur dans l'appli le questionnaire "StyleWeb" a Ã©tÃ© pourri par un utilisateur !
 si l'utilisateur copie le questionnaire pour lui il ne se l'appropie pas 
 SessionState.Questionnaire reste avec les valeurs de l'Intervieweur et l'utilisateur pourri
 le questionnaire de l'intervieweur
@@ -420,67 +424,67 @@ dans Questionnaire/Manage.aspx : Livraison partielle
 
 Questionnaire programmer HORREUR
 Je me posais la question d'ajouter une instruction "next Fin" je ne me souvenais plus qu'un bit Fin permet de sauter
-à la fin du questionnaire ce bit est manipulable dans Wizard/Question.aspx
-Il faut donc simplement mettre à jour la documentation ...
+Ã  la fin du questionnaire ce bit est manipulable dans Wizard/Question.aspx
+Il faut donc simplement mettre Ã  jour la documentation ...
 
-J'ai amélioré l'aide contextuelle de Poll/list.aspx : Livraison partielle
+J'ai amÃ©liorÃ© l'aide contextuelle de Poll/list.aspx : Livraison partielle
 
-correction faut "paged'accueil" en "page d'accueil" : Non Livré	le code est touché
+correction faut "paged'accueil" en "page d'accueil" : Non LivrÃ©	le code est touchÃ©
 
 27/05/2010
 
 Dans les statistiques Tag EnBas
 Poll/QuestionnaireStatAll.aspx?PollQuestionID=7bb...
-NON J'abandonne c'est bien assez compliqué comme ça je livre ...
+NON J'abandonne c'est bien assez compliquÃ© comme Ã§a je livre ...
 
-En mode création Questionnaire/Edit.aspx montre des volets vides et inutiles
+En mode crÃ©ation Questionnaire/Edit.aspx montre des volets vides et inutiles
 Wizard/Questionnaire.aspx renommer "Questionnaires exemples" Choisir un questionnaire
 
-renommer : "Créer un Questionnaire partir d'un exemple"
-en : "Créer un Questionnaire partir d'un questionnaire existant"
+renommer : "CrÃ©er un Questionnaire partir d'un exemple"
+en : "CrÃ©er un Questionnaire partir d'un questionnaire existant"
 
-Je veux revenir sur le processus de création d'un questionnaire.
+Je veux revenir sur le processus de crÃ©ation d'un questionnaire.
 C'est le premier process et ce n'est pas simple pour l'utilisateur
 j'entends certains utilisateurs qui ont du mal
 a creer leur questionnaire ...
 
 07/04/2010
 
-Correction BUG dans Poll\Answers.aspx.cs sur modif d'une réponse ouverte si elle est "vide" on ne peut
+Correction BUG dans Poll\Answers.aspx.cs sur modif d'une rÃ©ponse ouverte si elle est "vide" on ne peut
 pas la sauvegarder !
 BUG20100407
 
 31/03/2010
 
 AME20100331 il y a un "bug" avec le bouton "Afficher"
-d'autre part on ne pouvait pas cumuler les réponses ...
+d'autre part on ne pouvait pas cumuler les rÃ©ponses ...
 
 30/03/2010
 
-AME20100330 Que la liste des questionnaires créés par l'utilisateur apparaisse dans la dropdown
+AME20100330 Que la liste des questionnaires crÃ©Ã©s par l'utilisateur apparaisse dans la dropdown
 de \UserControl\QuestionnaireExempleControl.ascx.cs
 conception :
 protected override void OnPreRender( EventArgs e )
 dans
 UserControl\QuestionnaireExempleControl.ascx.cs
-Comme quoi il faut réfléchir avant de coder, voici une solution toute simple alors que je m'appretais
-à créer un composant DropDownListQuestionnaire de plus qui aurait les même fonctionnalités mais
-ajouterais la liste des questionnaires de l'interviewé dans la dropdown
+Comme quoi il faut rÃ©flÃ©chir avant de coder, voici une solution toute simple alors que je m'appretais
+Ã  crÃ©er un composant DropDownListQuestionnaire de plus qui aurait les mÃªme fonctionnalitÃ©s mais
+ajouterais la liste des questionnaires de l'interviewÃ© dans la dropdown
 
 BUG20100330
-J'ai oublié de copier ChoixMultipleMin et ChoixMultipleMax pour la copie des questions d'un questionnaire
+J'ai oubliÃ© de copier ChoixMultipleMin et ChoixMultipleMax pour la copie des questions d'un questionnaire
 
-J'aimerais bien ajouter une étoile rouge pour les questions obligatoires ...
-Mais il faudrait ajouter le moyen de le gérer dans l'optique de rester compatible ascendant
+J'aimerais bien ajouter une Ã©toile rouge pour les questions obligatoires ...
+Mais il faudrait ajouter le moyen de le gÃ©rer dans l'optique de rester compatible ascendant
 NON
-Finalement NON, je renonce, ça risque de ne pas être jolie, difficile à gérer 
-et puis on toujours utiliser le message à l'utilisateur pour indiquer que la réponse est obligatoire
+Finalement NON, je renonce, Ã§a risque de ne pas Ãªtre jolie, difficile Ã  gÃ©rer 
+et puis on toujours utiliser le message Ã  l'utilisateur pour indiquer que la rÃ©ponse est obligatoire
 
 24/03/2010
 
-Une chose encore très perturbate dans Wizard/Question lors que l'on supprime toutes les questions
-si on était sur Ouverte on reste sur Ouverte mais le volet est fermé il faut sélectionner rien 
-puis ouverte pour remettre une ouverte ... Il faudrait remettre la DropDown à rien.
+Une chose encore trÃ¨s perturbate dans Wizard/Question lors que l'on supprime toutes les questions
+si on Ã©tait sur Ouverte on reste sur Ouverte mais le volet est fermÃ© il faut sÃ©lectionner rien 
+puis ouverte pour remettre une ouverte ... Il faudrait remettre la DropDown Ã  rien.
 AME24032010
 
 23/03/2010
@@ -489,9 +493,9 @@ Ajout de l'information sur les limitations du compte client dans Administrer->Mo
 
 15/03/2010
 
-Remarque : On en voit pas le message de la dernière question d'un tableau
-si une question début de tableau à un message "en haut" on l'affiche
-si une question fin de tableau à un message "en bas" on l'affiche
+Remarque : On en voit pas le message de la derniÃ¨re question d'un tableau
+si une question dÃ©but de tableau Ã  un message "en haut" on l'affiche
+si une question fin de tableau Ã  un message "en bas" on l'affiche
 
 14/03/2010
 
@@ -499,11 +503,11 @@ C'est bizard "Question -> Reponse" redirige vers poll/manage
 
 13/03/2010
 
-Amélioration du mode Excel de Poll/Manage
+AmÃ©lioration du mode Excel de Poll/Manage
 
-Mettre de cases à cocher rang+1 et rang-1 dans Poll/List NON!
-C'est pas une bonne idée ça surchargerai trop le formulaire et puis il y a déjà le menu "Question"
-pour faire ça
+Mettre de cases Ã  cocher rang+1 et rang-1 dans Poll/List NON!
+C'est pas une bonne idÃ©e Ã§a surchargerai trop le formulaire et puis il y a dÃ©jÃ  le menu "Question"
+pour faire Ã§a
 
 11/03/2010
 
@@ -511,25 +515,25 @@ Afficher la date des votes dans AfficherToutLesVotesEnBas();
 
 05/03/2010
 
-BRY0002010305 ligne 268 de Wizard\Question.aspx.cs remplacé le > 1 par >= 1, 
+BRY0002010305 ligne 268 de Wizard\Question.aspx.cs remplacÃ© le > 1 par >= 1, 
 s'il y en a une il faut faire le choix des volets !
 
 BRY0002010305 suppression du bouton "Retour" du formulaire : Poll/QuestionnaireStatAll.aspx
-Bug quand une numérique est éditée le flag "Obligatoire" n'est pas coché si elle l'est !
+Bug quand une numÃ©rique est Ã©ditÃ©e le flag "Obligatoire" n'est pas cochÃ© si elle l'est !
 largeur 0
 hauteur 0 c'est pas bon non plus
 
-Mise à la couleur bleu de LabelListUserQuestionMessageStyle
-Mise à la couleur black du style LabelQuestionStyle
+Mise Ã  la couleur bleu de LabelListUserQuestionMessageStyle
+Mise Ã  la couleur black du style LabelQuestionStyle
 Ajout information de type de question dans le formulaire Statistiques :
 Poll/QuestionnaireStatAll.aspx
 
-mettre plus en conformité avec 
+mettre plus en conformitÃ© avec 
 Poll/List.aspx
 
 03/03/2010
 
-J'ajoute le bouton "Tester" sur la page "Administrer les Questionnaires" ça ira comme ça
+J'ajoute le bouton "Tester" sur la page "Administrer les Questionnaires" Ã§a ira comme Ã§a
 Validation des styles
 
 28/02/2010
@@ -537,75 +541,75 @@ Validation des styles
 Je m'attaque aux styles web, si il n'y a pas de padding et spacing on ne peut pas vraiment travailler
 avec les styles !
 
-Il faut virer le TypeStyleWeb qui ne sert à rien qu'à embrouiller NON justement
-Il faut se servir du TypeStyleWeb pour appliquer des proprietés particulières aux objets
+Il faut virer le TypeStyleWeb qui ne sert Ã  rien qu'Ã  embrouiller NON justement
+Il faut se servir du TypeStyleWeb pour appliquer des proprietÃ©s particuliÃ¨res aux objets
 exemple padding et spacing n'existe que pour une table !!!
 
-Amélioration de la page d'accueil pour FireFox
+AmÃ©lioration de la page d'accueil pour FireFox
 Questionnaire.Web\Wizard\Accueil.aspx
 
 27/02/2010
 
-J'ai développer Admin/Page/VotesFantomes.aspx pour observer et gérer le probleme sur la plateforme
+J'ai dÃ©velopper Admin/Page/VotesFantomes.aspx pour observer et gÃ©rer le probleme sur la plateforme
 Je corrige encore un BUG sur un satic Guid MembreGuid
-En cherchant Personne.Delete je tombe sur la page Contact/Delete.aspx qui ne sert à rien ?
-L'analyse du problème me laisse penser que c'est plutot PollVote.Create( pv ); qui est appelée de 
-façon intempestive
+En cherchant Personne.Delete je tombe sur la page Contact/Delete.aspx qui ne sert Ã  rien ?
+L'analyse du problÃ¨me me laisse penser que c'est plutot PollVote.Create( pv ); qui est appelÃ©e de 
+faÃ§on intempestive
 
 26/02/2010
 
 Je reprends le travail de la veille pour armoniser les deux messages de suppression dans 
-Contact/Email et Contact/Manage c'est beaucoup mieux de donner les même indications et de préciser
-le nombre de votes supprimés même si c'est 0
+Contact/Email et Contact/Manage c'est beaucoup mieux de donner les mÃªme indications et de prÃ©ciser
+le nombre de votes supprimÃ©s mÃªme si c'est 0
 
 25/02/2010
 
-Problème des votes fantômes soulevés par David Nicolet.
+ProblÃ¨me des votes fantÃ´mes soulevÃ©s par David Nicolet.
 ??? je ne voie pas de BUG le code dans Contact/Email est identique dans Contact/Manage sur la supression des votes
-Ajout d'un message à destination de l'utilisateurs lors de la suppression de l'interviewé
+Ajout d'un message Ã  destination de l'utilisateurs lors de la suppression de l'interviewÃ©
 par la croix rouge
-Correction faute d'orthographe : à déjà voté -> a déjà voté
+Correction faute d'orthographe : Ã  dÃ©jÃ  votÃ© -> a dÃ©jÃ  votÃ©
 
 19/02/2010
 
 Optimistation : OPT00020100219
-Création de précédures stockées pour eviter de faire GetAll puis de trier dans le code C#
+CrÃ©ation de prÃ©cÃ©dures stockÃ©es pour eviter de faire GetAll puis de trier dans le code C#
 GetByPollQuestionID
 
-Amélioration :
+AmÃ©lioration :
 En finir avec %%LIEN%% ajout de %%LOG%% dans le cas de %%ADRESSE_EMAIL%% et %%CODE_ACCES%%
 Test du contennu de CorpsEmail au moment de sauver le web content par l'objet 
 LogonInterviewe on pourrait ne plus le faire avant d'envoyer l'email mais bon ...
 
-Amélioration :
+AmÃ©lioration :
 Utilisation de %%SOCIETE%% dans CorpsEmail /* NON PLUS TARD : et PageAccueil et PageEnregistrement */
 
-Amélioration :
-Ajout de Débloqué dans "Création" de Member/Manage.aspx
+AmÃ©lioration :
+Ajout de DÃ©bloquÃ© dans "CrÃ©ation" de Member/Manage.aspx
 
-Amélioration :
+AmÃ©lioration :
 EmptyTemplate dans questionnairelistview, NON IMPOSSIBLE EmptyDataTemplate n'existe pas dans asp:DataList !!!
 
-Amélioration : NON PLUS TARD - BRY00020100219
-Ce n'est pas logique d'accueillir tous les interviewés avec "Bonjour Nom Prénom Société,"
+AmÃ©lioration : NON PLUS TARD - BRY00020100219
+Ce n'est pas logique d'accueillir tous les interviewÃ©s avec "Bonjour Nom PrÃ©nom SociÃ©tÃ©,"
 Il vaudrait mieux que l'utilisateur puisse mettre ce qu'il veut dans PageAccueil
 
-Questionnaire anonymat ? que faut-il faire ? on laisse l'initiative à l'utilisateur de ne pas mettre 
-%%NOM%% %%PRENOM%% dans la page accueil du questionnaire concerné mais attention ...
-Attention, on peut pas livrer maintenant, cela consisterait à modifier le fonctionnement
+Questionnaire anonymat ? que faut-il faire ? on laisse l'initiative Ã  l'utilisateur de ne pas mettre 
+%%NOM%% %%PRENOM%% dans la page accueil du questionnaire concernÃ© mais attention ...
+Attention, on peut pas livrer maintenant, cela consisterait Ã  modifier le fonctionnement
 pour les utilisateur actuels ! et de modifier leur PageAccueil
 
 La bonne question c'est de savoir audn on va pouvoir livrer cela ?!
 
 15/02/2010
  
-problème avec l'enregistrement en ligne !!!
-regression due aux derniers développements
+problÃ¨me avec l'enregistrement en ligne !!!
+regression due aux derniers dÃ©veloppements
 BUG00020100215
 
 14/02/2010
 
-BUG00020100214 Il y avait des utilisateurs débiles qui supprimaient leur page !!
+BUG00020100214 Il y avait des utilisateurs dÃ©biles qui supprimaient leur page !!
 
 J'ai modifier la place de l'envoit d'email assynchrone dans le bouton LoginButton_Click()
 mais il me bemblait que cela ne fonctionnait pas ...
@@ -614,50 +618,50 @@ Performance : calculer les limitation prend 7200 ms ! Il faut eviter de les aclu
 Je calcule une fois en page d'accueil et apparait je synchronise sur les create et les delete
 BRY00020100209
 
-Création de :
+CrÃ©ation de :
 SessionState.Limitations et de fonction ajouter pour maintenir les compteurs a jour sans recalculer les limitations
-pour améliorer les performances
+pour amÃ©liorer les performances
 
 10/02/2010
 
-J'ai ajouté un petit title dans Contacts par page pour afficher le max.
+J'ai ajoutÃ© un petit title dans Contacts par page pour afficher le max.
 
-Ne pas oublier de corrigé cet eventuel bug sur les emails de connexion que je reçois trop souvent !?
-Non je ne trouve pas et puis c'est chiant à tester alors on reste comme ça.
-Non impossible cela ne fonction pas sur le serveur Référence NULL !???
+Ne pas oublier de corrigÃ© cet eventuel bug sur les emails de connexion que je reÃ§ois trop souvent !?
+Non je ne trouve pas et puis c'est chiant Ã  tester alors on reste comme Ã§a.
+Non impossible cela ne fonction pas sur le serveur RÃ©fÃ©rence NULL !???
 
-BRY00020100209 j'ai ajouté une fonction LimitesInterviewesAtteinte( int nbInterviewes ) pour tester
+BRY00020100209 j'ai ajoutÃ© une fonction LimitesInterviewesAtteinte( int nbInterviewes ) pour tester
 les limites avant le Personne.Create()
 
-BUG20100210 : un utilisateur peut créer une page qui ira se créer pour un autre questionnaire 
-que le sien !? l'utilisateur ne plus alors accéder à cette page.
+BUG20100210 : un utilisateur peut crÃ©er une page qui ira se crÃ©er pour un autre questionnaire 
+que le sien !? l'utilisateur ne plus alors accÃ©der Ã  cette page.
 L'admin si peut le faire
-Est-ce encore un problème de var static ?
+Est-ce encore un problÃ¨me de var static ?
 
 tient tient ligne 60 de App_Code\Controls\DropDownListQuestionnaire.cs
 je trouve encore une static : public static ArrayList _CodeAcces = new ArrayList();
 je mets : private ArrayList _CodeAcces = new ArrayList();
-de toutes les façons je n'ai pas les moyens de reproduire ce genre de BUG 
+de toutes les faÃ§ons je n'ai pas les moyens de reproduire ce genre de BUG 
 tout seul dans mon coin :
-deux utilisateurs travaillent en même temps sur la même page et à cause des static il se passe
-un échange d'objet.
+deux utilisateurs travaillent en mÃªme temps sur la mÃªme page et Ã  cause des static il se passe
+un Ã©change d'objet.
 
 09/02/2010
 
-Le Probleme de perf vient du fait qu'à chaque Personne.Create on test les limitations !!!
+Le Probleme de perf vient du fait qu'Ã  chaque Personne.Create on test les limitations !!!
 BRY00020100209
-même si l'intervieweur peut entrer plus de contacts que la limite, 
-ses contacts ne pourrant pas répondre
+mÃªme si l'intervieweur peut entrer plus de contacts que la limite, 
+ses contacts ne pourrant pas rÃ©pondre
 
-Limitation de l'import du nombre d'interviewés
-Un utilisateur pose un problème avec son fichier CSV, le serveur patauge.
+Limitation de l'import du nombre d'interviewÃ©s
+Un utilisateur pose un problÃ¨me avec son fichier CSV, le serveur patauge.
 ensuite il fait un copier-colle de 3789 lignes !
 
 il y a des ; et des \r\n dans ce fichier
 
-Fin du problème de compatibilité IE8 Enfin !
+Fin du problÃ¨me de compatibilitÃ© IE8 Enfin !
 Il faut place la balise <meta http-equiv="X-UA-Compatible" content="IE=7"/>
-le plus tôt possible dans la page
+le plus tÃ´t possible dans la page
 
 06/02/2010
 
@@ -665,80 +669,80 @@ Essayons d'optimiser la suppression d'un membre.
 
 05/02/2010
 
-Tests Glass et Lux encore un problème de serveur smtp !
-Encore un vrai truc de merde AMEN de merde précaunise d'utiliser smtp.monfai.com 
+Tests Glass et Lux encore un problÃ¨me de serveur smtp !
+Encore un vrai truc de merde AMEN de merde prÃ©caunise d'utiliser smtp.monfai.com 
 comme serveur smtp smtp.glass-lux.com existe mais on ne peut pas envoyer d'emails
-à une autre adresse que @glass-lus.com !
+Ã  une autre adresse que @glass-lus.com !
 
 03/02/2010
 
-J'ai parlé à un utilisateur d'une fonctionnalité qui n'existe pas copier un questionnaire!
+J'ai parlÃ© Ã  un utilisateur d'une fonctionnalitÃ© qui n'existe pas copier un questionnaire!
 Ben si, mais j'ai bien mis 1 heure avant de la retrouver !
 
-Ajout de ValidateRequest="false" dans Questionnaire/Edit.aspx sinon on détecte une "Valeur potientiellement dangereuse !"
+Ajout de ValidateRequest="false" dans Questionnaire/Edit.aspx sinon on dÃ©tecte une "Valeur potientiellement dangereuse !"
 quelle grosse merde !!!
 
 21/01/2010
 
-Ajout d'une colonne pour envoyer un email à l'intervieweur dans Contact/Manage.aspx
+Ajout d'une colonne pour envoyer un email Ã  l'intervieweur dans Contact/Manage.aspx
 
 14/01/2010
 
-Création de TextBox pour editer les liens d'invation sur le formulaire Questionnaire/Edit.aspx
+CrÃ©ation de TextBox pour editer les liens d'invation sur le formulaire Questionnaire/Edit.aspx
 
 02/12/2009
 
-Amélioration pour l'admin ajout d'un lien vers questionnaire Edit dans Interviewé Manage
+AmÃ©lioration pour l'admin ajout d'un lien vers questionnaire Edit dans InterviewÃ© Manage
 
 BUG02122009
 Encore un truc de fou fait par un utilisateur
-Elle clique sur le lien d'un ancien email après avoir supprimé son email dans l'application
+Elle clique sur le lien d'un ancien email aprÃ¨s avoir supprimÃ© son email dans l'application
 elle se retrouve donc devant le formulaire \contact\login.aspx avec son adresse email et son mot de passe 
-à entrer et ca ne marche pas
+Ã  entrer et ca ne marche pas
 
 29/11/2009
 
 BUG29112009
 Bug Score cela ne fonctionne pas ! Encore cet histoire d'ID de user control
-Dans la vie de la BD les ScoreID ne commencent pas à 1 !
-Il faut distinguer les ScoreID des controls existants de ceux que l'on va créer : ScoreToAdd au lieu de Score
-Il reste un bug ligne 160 difficile à reproduire
+Dans la vie de la BD les ScoreID ne commencent pas Ã  1 !
+Il faut distinguer les ScoreID des controls existants de ceux que l'on va crÃ©er : ScoreToAdd au lieu de Score
+Il reste un bug ligne 160 difficile Ã  reproduire
 
-Limitation : il ne faut pas les appliquer à l'admin
+Limitation : il ne faut pas les appliquer Ã  l'admin
 il faut cesser cette histoire de create( oui ) mais utiliser User.IsAuthenticated
 pour l'admin dans Member/Edit il faut les comptes de l'utilisateur.
 
 20/11/2009
 
 BUG20112009
-Je cherche à corriger le Bug du questionnaire Formation informatique en 2009
-c'est un questionnaire avec anonymat et pourtant j'ai déja voté !
+Je cherche Ã  corriger le Bug du questionnaire Formation informatique en 2009
+c'est un questionnaire avec anonymat et pourtant j'ai dÃ©ja votÃ© !
 La creation d'un anonyme est telle que si on supprime des votants alors le calcul de l'anonyme
 fera qu'il retombe sur un anonyme deja existant dans la base !
-Donc il aura deja voté et verra les votes d'un précédent votant !!
+Donc il aura deja votÃ© et verra les votes d'un prÃ©cÃ©dent votant !!
 Il faut donc calculer de facon unique le "count" du votant anonyme quelque soit l'historique des suppression
 de votants anonymes.
 
 17/11/2009
-Suite à une campagne en ligne effectuée "dans le dos" développement de la fonction "Limité"
+Suite Ã  une campagne en ligne effectuÃ©e "dans le dos" dÃ©veloppement de la fonction "LimitÃ©"
 
 15/11/2009
 
 AME15112009
 Je m'attaque au formulaire Email avec les memes idees ...
-Il faut pouvoir ne sélectionner que les votants ou les nons votants
+Il faut pouvoir ne sÃ©lectionner que les votants ou les nons votants
 Et puis je m'attaque au formulaire PollManage pour ajouter le bouton Excel
 
 14/11/2009
 
 AME14112009
 Ce serait pas si difficile finalement d'exporter au format Excel ?
-Et bien pas si facile : accents pétés sous Excel il faut absolument la balise :
+Et bien pas si facile : accents pÃ©tÃ©s sous Excel il faut absolument la balise :
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 dans Print.master
-Probleme avec les css s'ils elles sont présentes au moment de sauver le .xls ce con d'Excel les
-demande à l'ouverture du fichier ce qui fait désordre car elles sont restées sur le serveur !
-Pour remédier à ça on fait :
+Probleme avec les css s'ils elles sont prÃ©sentes au moment de sauver le .xls ce con d'Excel les
+demande Ã  l'ouverture du fichier ce qui fait dÃ©sordre car elles sont restÃ©es sur le serveur !
+Pour remÃ©dier Ã  Ã§a on fait :
 OnPreInit Page.Theme = "";
 
 Il manquait une info dans QuestionnaireStatAll en mode print c'est de qui on affiche les votes.
@@ -747,57 +751,57 @@ Il manquait une info dans QuestionnaireStatAll en mode print c'est de qui on aff
 
 AME12112009
 
-Amélioration de Wizard\Question ...
-Au moment de sélectionner un type de question autre que Simple/Multiple s'il elle existe il faut l'afficher !
+AmÃ©lioration de Wizard\Question ...
+Au moment de sÃ©lectionner un type de question autre que Simple/Multiple s'il elle existe il faut l'afficher !
 
 10/11/2009
 
 BUG10112009
 Si on sauve les modifs et que l'on clique sur "Visualiser" ca marche pas car :
-SessionState.Questionnaire = null; à la fin de sauver !
+SessionState.Questionnaire = null; Ã  la fin de sauver !
 
 Finaliser l'affichage du compteur de question
-Dans Questionnaire/Edit le bouton "Ajouter des questions" est stupide il est remplacé par "Visualiser le questionnaire"
-Agencement different du formulaire les invitations sont liées au bit "Anonyme" le formulaire stat est lié à publié c'est plus logique
+Dans Questionnaire/Edit le bouton "Ajouter des questions" est stupide il est remplacÃ© par "Visualiser le questionnaire"
+Agencement different du formulaire les invitations sont liÃ©es au bit "Anonyme" le formulaire stat est liÃ© Ã  publiÃ© c'est plus logique
 Ajout d'un bit "Afficher compteur"
 
 09/11/2009
 
 COR09112009
-Problématique compteur de question, un compteur par question est utile si les questions sont dans des pages ...
+ProblÃ©matique compteur de question, un compteur par question est utile si les questions sont dans des pages ...
 
 08/11/2009
 
-Il faut arriver à faciliter la vie des utilisateurs dans cet optique
-j'ajoute un bouton "Ajouter" à "Contact/Email.aspx" car si l'utilisateur arrive ici
-mais que la liste est vide il ne sait pas où aller ...
-Je sais pas si c'est une bonne idée ... bon c'est dimanche ...
+Il faut arriver Ã  faciliter la vie des utilisateurs dans cet optique
+j'ajoute un bouton "Ajouter" Ã  "Contact/Email.aspx" car si l'utilisateur arrive ici
+mais que la liste est vide il ne sait pas oÃ¹ aller ...
+Je sais pas si c'est une bonne idÃ©e ... bon c'est dimanche ...
 
-Je veux supprimer "Interviewés par Questionnaire" dans "Contact/Manage.aspx" cela n'apporte rien !
+Je veux supprimer "InterviewÃ©s par Questionnaire" dans "Contact/Manage.aspx" cela n'apporte rien !
 
 04/11/2009
 
 COR04112009
-Corriger le fait que l'utilisateur tombe dans un trou s'il tente d'envoyer un email aux interviewés.
+Corriger le fait que l'utilisateur tombe dans un trou s'il tente d'envoyer un email aux interviewÃ©s.
 
 30/10/2009
 
-Correction des coquilles relevées par David Nicollet
+Correction des coquilles relevÃ©es par David Nicollet
 
 24/10/2009
 
-dans SmtpServeur, EmailSubject à été augmenté de 100 à 256 caractères
+dans SmtpServeur, EmailSubject Ã  Ã©tÃ© augmentÃ© de 100 Ã  256 caractÃ¨res
 
 21/10/2009
 
 Dans Poll/Questionnaire.aspx le
 MaintainScrollPositionOnPostback="true"
-C'est pas bon !! Je ne sais pas pourquoi c'était là !
-Title="Untitled Page" remplacé par Title="Questionnaire"
+C'est pas bon !! Je ne sais pas pourquoi c'Ã©tait lÃ  !
+Title="Untitled Page" remplacÃ© par Title="Questionnaire"
 
 COR21092009
-Suppression du pager Vos reponses : 1/25 ca perturbe l'interviewé plutot qu'autre chose
-Il est bien plus logique de ne laisser "Vos réponses" en dehors des questions
+Suppression du pager Vos reponses : 1/25 ca perturbe l'interviewÃ© plutot qu'autre chose
+Il est bien plus logique de ne laisser "Vos rÃ©ponses" en dehors des questions
 
 COR210920090002
 Probleme avec l'ancre #BasDePage
@@ -809,13 +813,13 @@ on va retourner en bas de page !!!
 17/10/2009
 
 BUG171020090002
-La section PageEnregistrement doit être gérée par l'intervieweur !!!
+La section PageEnregistrement doit Ãªtre gÃ©rÃ©e par l'intervieweur !!!
 
-Réflexion d'un Internaute AIMCC, comment fait un interviewé qui vient s'enregistrer 
-pour répondre au questionnaire pour pousuivre son questionnaire
-puisque "il existe déjà dans la base".
-J'aurais bien aimé laisser un contact/register continuer son questionnaire mais il me semble
-que ca pose un problème de sécurité
+RÃ©flexion d'un Internaute AIMCC, comment fait un interviewÃ© qui vient s'enregistrer 
+pour rÃ©pondre au questionnaire pour pousuivre son questionnaire
+puisque "il existe dÃ©jÃ  dans la base".
+J'aurais bien aimÃ© laisser un contact/register continuer son questionnaire mais il me semble
+que ca pose un problÃ¨me de sÃ©curitÃ©
 On ne laisse continuer qu'apres avoir recu un email
 
 BUG171020090001
@@ -827,12 +831,12 @@ en interview ca ne pose pas de probleme lors du retour
 
 Autre soucis, je distinguais :
 && SessionState.Question.Tableau != Tableau.Fin 
-donc lorsque l'on revient d'une fin de tableau la question etait mal représentée par des checkbox au lieu d'une list
+donc lorsque l'on revient d'une fin de tableau la question etait mal reprÃ©sentÃ©e par des checkbox au lieu d'une list
 du coup le test Molnlycke est obsolette !?
 
 16/10/2009
 
-Il faut trouver un libellé, pour l'interviewé afin qu'il découvre se questions ou plutot ses reponses
+Il faut trouver un libellÃ©, pour l'interviewÃ© afin qu'il dÃ©couvre se questions ou plutot ses reponses
 "Questions" ne convient pas !
 
 11/10/2009
@@ -841,14 +845,14 @@ Au passage dans Poll/QuestionnaireEnCours :
 je n'affichait ni les pages ni les tableaux !!!
 
 BUG12102009
-BUG très méchant : Quand deux tableaux sont sur la meme page
+BUG trÃ¨s mÃ©chant : Quand deux tableaux sont sur la meme page
 en cliquant dans l'un on enleve les coches de l'autre !
 la piste s'orient vers le MutuallyExclusiveCheckBoxExtender et les Key
 Key permet de distinguer les groupes de RadioButton Mutualy exclusive
 
 09/10/2009
 
-Optimisation en créant des indexes sur les ID et les GUID, opération faites directement sur le serveur dans la BD Questionnaire.mdf
+Optimisation en crÃ©ant des indexes sur les ID et les GUID, opÃ©ration faites directement sur le serveur dans la BD Questionnaire.mdf
 Ajout d'une ligne dans le site map pour Poll/Answers.aspx
 Ajout d'un bouton "Retour" dans formulaire d'inmpression Poll/Manage.aspx
 
@@ -858,11 +862,11 @@ Correction d'un bug sur le formulaire QuestionnaireStatAll/
 
 07/10/2009
 
-Déplacement de la colonne Vote dans Contact/Email pour mieux gérer les non-votants
+DÃ©placement de la colonne Vote dans Contact/Email pour mieux gÃ©rer les non-votants
 
 06/10/2009
 
-Ajout d'un label "Choix simple" dans "Visualiser questionnaire" pour moi c'était évident 
+Ajout d'un label "Choix simple" dans "Visualiser questionnaire" pour moi c'Ã©tait Ã©vident 
 mais surement pas pour les utilisateurs !!
 Ajout d'un bouton rouge vers l'aide dans Questionnaire/Edit.aspx
 
@@ -870,51 +874,51 @@ Ajout d'un bouton rouge vers l'aide dans Questionnaire/Edit.aspx
 
 correction BUG25092009
 Je me rends compte d'un bug dans Poll/QuestionnaireSatAll lorsque je clique sur le bouton print,
-les réponse de interviewés s'accumulent en bas
-Je fais un autre test lorsque je clique sur F5 pareil, les réponses s'accumule en haut.
-Si je passe de print à non print à chaque fois cela s'accumule
-Je regarde si ce bug existe depuis longtemps la réponse est oui il semble dans 3.0 c'est déjà le cas
-c'était moins visible et je n'avais jamais fait F5 sur les stats mais avec le print c'est l'équivalent de F5
+les rÃ©ponse de interviewÃ©s s'accumulent en bas
+Je fais un autre test lorsque je clique sur F5 pareil, les rÃ©ponses s'accumule en haut.
+Si je passe de print Ã  non print Ã  chaque fois cela s'accumule
+Je regarde si ce bug existe depuis longtemps la rÃ©ponse est oui il semble dans 3.0 c'est dÃ©jÃ  le cas
+c'Ã©tait moins visible et je n'avais jamais fait F5 sur les stats mais avec le print c'est l'Ã©quivalent de F5
 et cela se vois pls !!!
 
 23/09/2009
-ajouter une liste à la sélection d'un questionnaire dans Questionnaire/Manage.aspx
-avec les informations Nombre de questions, nombre d'interviewés, nombre de votes
-j'en profite pour modifier le lien dans Member/Manages.aspx qui menait vers Question mêne vers Visualiser
+ajouter une liste Ã  la sÃ©lection d'un questionnaire dans Questionnaire/Manage.aspx
+avec les informations Nombre de questions, nombre d'interviewÃ©s, nombre de votes
+j'en profite pour modifier le lien dans Member/Manages.aspx qui menait vers Question mÃªne vers Visualiser
 
 22/09/2009
-suite à la correction BUG10092009 J'ai oublié de modifier de modifier le formulaire de publication !!!
+suite Ã  la correction BUG10092009 J'ai oubliÃ© de modifier de modifier le formulaire de publication !!!
 
 11/09/2009 Livraison
 
 correction BUG100920090003
-Bug Pierre Breesé : Majuscules Minuscules dans le Login
+Bug Pierre BreesÃ© : Majuscules Minuscules dans le Login
 Ca y est j'ai trouve encore un autre truc
 
 correction BUG100920090002
 Quand clique sur la case Date dans Contact/Email de temps tous les contacts apparaissent comme pour 
-l'admin !!! c'est lorque l'on décoche la case Date
+l'admin !!! c'est lorque l'on dÃ©coche la case Date
 Il faut executer le code
         SqlDataSourcePersonne.SelectCommand = SelectCommand();
         GridViewContacts.DataBind();
 quelque soit la commande
 
-correction "Tout sélectionner" s'il était coché, se retrouve coché quand on change de page
+correction "Tout sÃ©lectionner" s'il Ã©tait cochÃ©, se retrouve cochÃ© quand on change de page
 
 correction BUG10092009 Erreur JavaScripts
-on essaye de retirer ce qui pose un problème dans le try NON!!
+on essaye de retirer ce qui pose un problÃ¨me dans le try NON!!
 je mets CausesValidation="false" dans l'interface et on passe plus par le JavaScript NON!!
 finalement j'essaye AutoPostBack="true" pourquoi pas ...
 
 10/09/2009
 
 correction BUG10092009 
-Bug énorme, en travaillant avec un utilisateur dans le formulaire Questionnaire.Edit il me volle mon questionnaire
+Bug Ã©norme, en travaillant avec un utilisateur dans le formulaire Questionnaire.Edit il me volle mon questionnaire
 static int QuestionnaireID = 0; code de malheur !
 On moment ou l'utilisateur sauve son questionnaire le MemberGUID de mon questionnaire 
 prend la valeur de celle de l'utilisateur !
 
-incroyable j'avais déjà commis cette erreur il y a 15 ans au debut de ma carrière.
+incroyable j'avais dÃ©jÃ  commis cette erreur il y a 15 ans au debut de ma carriÃ¨re.
 Cela touche :
 F:\Visual Studio 2005\Questionnaire\Questionnaire.Web\Contact\Manage.aspx.cs
 F:\Visual Studio 2005\Questionnaire\Questionnaire.Web\Contact\Register.aspx.cs
@@ -931,79 +935,79 @@ F:\Visual Studio 2005\Questionnaire\Questionnaire.Web\Wizard\Question.aspx.cs
 correction du bug ( Guy Romain) gromain@datem.fr n'est pas un email valide !! ERREUR j'ai pas lu la doc !
 
 BUG09092009
-correction du membre non validé qui arrive quand même à creer un questionnaire.
-Il atteind la page d'accueil sans qu'on est vérifié s'il etait approuvé.
+correction du membre non validÃ© qui arrive quand mÃªme Ã  creer un questionnaire.
+Il atteind la page d'accueil sans qu'on est vÃ©rifiÃ© s'il etait approuvÃ©.
 Il passe par le SiteMapPath et entre dans la page d'Accueil !
-Member/Register.aspx le bouton "Retour" ne doit pas être là au moment de l'enregistrement 
-d'un memre non authentifié.
+Member/Register.aspx le bouton "Retour" ne doit pas Ãªtre lÃ  au moment de l'enregistrement 
+d'un memre non authentifiÃ©.
 Dans le bouton Retour on avait beau faire FormsAuthentication.SignOut(); CA NE MARCHAIT PAS!!!
-La page Wizard/Accueil doit vérifier si l'utilisateur est approuvé
+La page Wizard/Accueil doit vÃ©rifier si l'utilisateur est approuvÃ©
 ValidateRequest="false" dans PageValidation.aspx NON on va passer par le page d'erreur c'est mieux.
 Le plus fort c'est que le message "Vous devez ... pour valider votre compte l'utilisateur ne le verra qu'une fois !
 
 08/09/2009
 
 correction BUG0809090002
-arrêter de vérifier d'il y a un nom lors de l'édition d'un contact !
+arrÃªter de vÃ©rifier d'il y a un nom lors de l'Ã©dition d'un contact !
 
-Après les problèmes avec Louise Dides, je décide de mieux valider les emails en entrées avec IsValideEmail
-grace à un RegEx (c'est inbitable d'ailleurs)
-implémentation de la fonctionnalité Louise Dides.
-Supprimer des contacts (des interviewés) dans contact/manage.aspx
+AprÃ¨s les problÃ¨mes avec Louise Dides, je dÃ©cide de mieux valider les emails en entrÃ©es avec IsValideEmail
+grace Ã  un RegEx (c'est inbitable d'ailleurs)
+implÃ©mentation de la fonctionnalitÃ© Louise Dides.
+Supprimer des contacts (des interviewÃ©s) dans contact/manage.aspx
 Qualifier des bases de contacts
-"Ajouter la  lites des contacts" remplacé par "Ajouter la liste des contacts"
-correction BUG080909, on s'apercoit que "Interviewés :" LabelNombreContacts n'est pas rafraichit correctement ! 
-De toutes les façons, on ne peut pas pas rafraichir LabelNombreContacts sur Delete Command de la GridView !
+"Ajouter la  lites des contacts" remplacÃ© par "Ajouter la liste des contacts"
+correction BUG080909, on s'apercoit que "InterviewÃ©s :" LabelNombreContacts n'est pas rafraichit correctement ! 
+De toutes les faÃ§ons, on ne peut pas pas rafraichir LabelNombreContacts sur Delete Command de la GridView !
 
 27/07/2009
-le bit Questionnaire.Bloque n'a pas beaucoup de sens il servait à bloquer l'intervieweur l'empechant de
-rajouter des contacts mais il n'avait pas été maintenu sur les derniers formulaires comme Visualiser Questionnaire
-Je détourne ce bit pour clôre le questionnaire comme cela je ne fais pas de mise à jour de la BD !
+le bit Questionnaire.Bloque n'a pas beaucoup de sens il servait Ã  bloquer l'intervieweur l'empechant de
+rajouter des contacts mais il n'avait pas Ã©tÃ© maintenu sur les derniers formulaires comme Visualiser Questionnaire
+Je dÃ©tourne ce bit pour clÃ´re le questionnaire comme cela je ne fais pas de mise Ã  jour de la BD !
 
-Authentification d'un interviewé, c'est trop compliqué à mon gôut, historiquement il y avait une page accueil pour
-authentifier l'interviewé avec email et code d'accès en voulant la conserver j'ai multiplier les pages 
-d'authentification des interviewés !
-Formulaire login des interviewés : Contact/Login.aspx.cs redirige vers ~/Accueil.aspx.cs et pour le lien 
+Authentification d'un interviewÃ©, c'est trop compliquÃ© Ã  mon gÃ´ut, historiquement il y avait une page accueil pour
+authentifier l'interviewÃ© avec email et code d'accÃ¨s en voulant la conserver j'ai multiplier les pages 
+d'authentification des interviewÃ©s !
+Formulaire login des interviewÃ©s : Contact/Login.aspx.cs redirige vers ~/Accueil.aspx.cs et pour le lien 
 email automatique c'est ici aussi
-Formulaire d'enregistrement : Contact/Register.aspx.cs mais les anonymes aussi passent par là
+Formulaire d'enregistrement : Contact/Register.aspx.cs mais les anonymes aussi passent par lÃ 
 
 25/07/2009
 Ajout de la date du vote dans Contact/Email
 
 20/07/2009
-Gros problème pour les utilisateurs pour les réponses textuelle, date et numérique :
-si il ne met de pas de libellé il ne se passe rien j'aimerais bien mettre un espace dans le libéllé ...
+Gros problÃ¨me pour les utilisateurs pour les rÃ©ponses textuelle, date et numÃ©rique :
+si il ne met de pas de libellÃ© il ne se passe rien j'aimerais bien mettre un espace dans le libÃ©llÃ© ...
 Supression de "3 - Visualiser" c'est pas utile !!
 de "2 - Ajouter"
 
 11/07/2009
-Test de destruction de la BD : j'ai récupéré la BD du serveur et j'ai supprimé tous le compte
+Test de destruction de la BD : j'ai rÃ©cupÃ©rÃ© la BD du serveur et j'ai supprimÃ© tous le compte
 il ne reste quasiment rien, 2 objets dans PollAnswers et c'est tout, c'est acceptable.
 
 BUG1107090001 :
 Mais je trouve un bug dans Contact/Manage.aspx.cs SessionState.Personnes.Count est NULL
 
 BUG1107090002 :
-Même chose dans Score/Manage.aspx.cs 
+MÃªme chose dans Score/Manage.aspx.cs 
 
 08/07/2009
-Je ne trouve pas clair le format de l'email envoyé à l'interviewé
-pour loguer un interviewé par %%ADRESSE_EMAIL%% et %%CODE_ACCES%% il faut atteindre la page
+Je ne trouve pas clair le format de l'email envoyÃ© Ã  l'interviewÃ©
+pour loguer un interviewÃ© par %%ADRESSE_EMAIL%% et %%CODE_ACCES%% il faut atteindre la page
 /contact/login.aspx et pas /member/login.aspx
 
-NON en fait, j'ai supprimé le logue automatique par %%ADRESSE_EMAIL%% et %%CODE_ACCES%%
+NON en fait, j'ai supprimÃ© le logue automatique par %%ADRESSE_EMAIL%% et %%CODE_ACCES%%
 dans /contact/login.aspx
-Il est remplacé par %%LIEN%%
-le code est à nettoyer dans l'envoit de l'email à l'interviewé!
+Il est remplacÃ© par %%LIEN%%
+le code est Ã  nettoyer dans l'envoit de l'email Ã  l'interviewÃ©!
 
 comme ca fonctionne alors je ne change rien !
 
-Incohérence : Pour la copie des WebContent j'aurais du choisir l'Intervieweur et pas l'admin !
+IncohÃ©rence : Pour la copie des WebContent j'aurais du choisir l'Intervieweur et pas l'admin !
 
 25/06/2009
-Ajout d'une distinction dans l'email envoye à l'admin pour que l'admin sache que l'utilisateur
+Ajout d'une distinction dans l'email envoye Ã  l'admin pour que l'admin sache que l'utilisateur
 doit encore cliquer sur l'email pour valider son inscription
-Correction bug sur l'email et le lien dans nouvelle réponse d'un interviewé
+Correction bug sur l'email et le lien dans nouvelle rÃ©ponse d'un interviewÃ©
 
 22/06/2009
 Correction : il n'y avait pas de messages a l'utilisateur pour les dates obligatoires
@@ -1012,14 +1016,14 @@ Correction dans ButtonVoirQuestionaireOk_Click
 si on est en mode ajout de questions on va en bas de page
 sinon ce n'est pas logique lorsqu'on modifie une questions de se retouver toujours en bas de page
 Correction de l'apparition du message lors de l'ajout de questions qui perturbait l'utilisateur
-LabelValidationMessage.Text = "Réponses modifiées, cliquez sur le bouton \"Modifier\" pour prendre en compte les modifications";
+LabelValidationMessage.Text = "RÃ©ponses modifiÃ©es, cliquez sur le bouton \"Modifier\" pour prendre en compte les modifications";
 Par contre il faut que ce message apparaisse sur la DropdownList sinon les modifs ne sont pas rpise en compte !
 
 12/06/2009
-Correction dans Wizard/Question.aspx il y avait : réponses déparées par des virgules dans le tooltip du label et non des points virgules !
-Deux jours de galère pour LINQ et tenter de faire un jointure pour Member/Manage.aspx il me faut
+Correction dans Wizard/Question.aspx il y avait : rÃ©ponses dÃ©parÃ©es par des virgules dans le tooltip du label et non des points virgules !
+Deux jours de galÃ¨re pour LINQ et tenter de faire un jointure pour Member/Manage.aspx il me faut
 pouvoir trier par date de creation !
-LINQ est une vraie merde à paramétrer
+LINQ est une vraie merde Ã  paramÃ©trer
 
 09/06/2009
 Pour le reste cela semble bien impossible par exemple les TextBox dans Poll/List.aspx qui ont une largeur
@@ -1033,74 +1037,74 @@ margin: 0 auto; c'est vraiment la merde !
 07/06/2009
 Encore des soucis avec le processus login/logout !
 Remaniement du formulaire Questionnaire/Edit.aspx
-les options pour un questionnaire ne sont pas compréhensibles !
+les options pour un questionnaire ne sont pas comprÃ©hensibles !
 
 05/06/2009
-Suppression du SignOut sur la page Login sinon "Mémoriser ma connexion" ne sert à rien !
-Ajout d'un formulaire print pour gérer les utilisateurs cela devenait ingérable !
+Suppression du SignOut sur la page Login sinon "MÃ©moriser ma connexion" ne sert Ã  rien !
+Ajout d'un formulaire print pour gÃ©rer les utilisateurs cela devenait ingÃ©rable !
 
 02/06/2009
-Amélioration du ModePrint car avec Excel 2003 de merde si on copie-colle des liens c'est la merde
-petit rappel : le dessin du questionnaire est réalisé par App_Code/Controls/QuestionnaireStatAllControl.cs
-QuestionnairePublication.cs est du même genre mais il faut laisser le petit jeux du clique sur les réponses
-c'est logique, seul le propriétaire du questionnaire peut imprimer correctement.
-* Au passage on à amélioré le truc : 
+AmÃ©lioration du ModePrint car avec Excel 2003 de merde si on copie-colle des liens c'est la merde
+petit rappel : le dessin du questionnaire est rÃ©alisÃ© par App_Code/Controls/QuestionnaireStatAllControl.cs
+QuestionnairePublication.cs est du mÃªme genre mais il faut laisser le petit jeux du clique sur les rÃ©ponses
+c'est logique, seul le propriÃ©taire du questionnaire peut imprimer correctement.
+* Au passage on Ã  amÃ©liorÃ© le truc : 
 
 30/05/2009
 * Je veux que les utilisateurs aient un email de validation pour approuver leur compte :
-le problème sinon c'est qu'il peuvent mettre n'importe qu'elle adresse email.
+le problÃ¨me sinon c'est qu'il peuvent mettre n'importe qu'elle adresse email.
 Member/Approuve.aspx
-Ajout d'un flag dans MemberSettings pour que l'utilisateur malin désapprouvé ne reclique pas sur son email
-ce flag est à faux puis mis à true dans Approuve.aspx ainsi s'il reclique et que le flag est à true
+Ajout d'un flag dans MemberSettings pour que l'utilisateur malin dÃ©sapprouvÃ© ne reclique pas sur son email
+ce flag est Ã  faux puis mis Ã  true dans Approuve.aspx ainsi s'il reclique et que le flag est Ã  true
 on l'envoit chier!
 
-* J'ai oublié de supprimer le fichier App_Data/MemberSettings/nom membre sur la suppresion d'un membre
+* J'ai oubliÃ© de supprimer le fichier App_Data/MemberSettings/nom membre sur la suppresion d'un membre
 
 28/05/2009
-Correction BUG les fichiers dans App_Data, ne sont pas supprimé lors de la suppression d'une membre
+Correction BUG les fichiers dans App_Data, ne sont pas supprimÃ© lors de la suppression d'une membre
 
 27/05/2009
 Suppression de l'envoi d'email lors de la connexion d'un "Administrateur"
-c'était trop chiant !
-mais c'était en plus chiant car le process login ne permet pas de savoir si IsInRole("Admi") sur le clique
+c'Ã©tait trop chiant !
+mais c'Ã©tait en plus chiant car le process login ne permet pas de savoir si IsInRole("Admi") sur le clique
 du bouton login on est donc oblige de deporter le traitement dans le Page_Load !
 
 25/05/2009
 Revue aussi l'email aux interviewe il restait quelques petites incoherences ...
 %%LIEN%% et CODE + ADRESSE Attention il faudrait valider un peu plus !
-Creation de la page Contact/Login.aspx pour cesser de mélanger le login du membre et le login d'un interviewé
+Creation de la page Contact/Login.aspx pour cesser de mÃ©langer le login du membre et le login d'un interviewÃ©
 Copie d'un questionnaire d'exemple choisi dans Settings.aspx pour les nouveaux membres
 On remarque que les utilisateurs aimeraient supprimer leur compte.
-Donner la possiblité de supprimer son compte à l'utilisateur.
+Donner la possiblitÃ© de supprimer son compte Ã  l'utilisateur.
 PasswordRecovery dans le Login
 
 21/05/2009
-Correction des message à l'utilisateur ce n'est pas Validé mais Approuvé !
+Correction des message Ã  l'utilisateur ce n'est pas ValidÃ© mais ApprouvÃ© !
 Ajout du nombre de Questions par questionnaire sur Member/Manage.aspx
 
 13/05/2009
 Ajout d'informations sur le formulaire Intervieweur dans la DataListQuestionnaire
-triée par date + Nombre d'interviewés + Nombre de votants
+triÃ©e par date + Nombre d'interviewÃ©s + Nombre de votants
 
 05/05/2009
-Ajout dans les settings d'un Code d'Accès du questionnaire d'exemple à copier pour un nouveau Membre
-Correction du bug sur la Navigation page d'accueil : plantage en cliquant sur le bouton "Par défaut".
+Ajout dans les settings d'un Code d'AccÃ¨s du questionnaire d'exemple Ã  copier pour un nouveau Membre
+Correction du bug sur la Navigation page d'accueil : plantage en cliquant sur le bouton "Par dÃ©faut".
 
-La possiblité ou non d'enregsitrer un membre se fait par le web.config en donnat ou non accès à la page :
+La possiblitÃ© ou non d'enregsitrer un membre se fait par le web.config en donnat ou non accÃ¨s Ã  la page :
 Member/Register
-Options ajoutées dans Paramètres :
-    prévenir sur l'enregistrement d'un nouveau membre
-    le nouveau est approuvé ?
-Apres m'être posé longtemps la question de la création d'un utilisateur
+Options ajoutÃ©es dans ParamÃ¨tres :
+    prÃ©venir sur l'enregistrement d'un nouveau membre
+    le nouveau est approuvÃ© ?
+Apres m'Ãªtre posÃ© longtemps la question de la crÃ©ation d'un utilisateur
 J'ai failli le faire dans FomulaireContact mais je recherche le plus pratique
 c'est donc ici.
 
 04/04/2009
-Modif du formulaire Poll\QuestionnaireStatAll.aspx CheckBox "Masquer les contrôles"
+Modif du formulaire Poll\QuestionnaireStatAll.aspx CheckBox "Masquer les contrÃ´les"
 
 03/04/2009
-Développement du formulaire RegisterCall.aspx pour que les CallCenter
-puissent inviter des interviewés par téléphone à répondre au questionnaire
+DÃ©veloppement du formulaire RegisterCall.aspx pour que les CallCenter
+puissent inviter des interviewÃ©s par tÃ©lÃ©phone Ã  rÃ©pondre au questionnaire
 
 23/03/2009
 Ajout d'un Panel autour des elements Login GroupingText="Connexion"
@@ -1114,45 +1118,45 @@ Inversion de Publier et de Anoynmat dans Questionnaire/Edit.aspx
 
 17/12/2008
 Simplifaction de CorpsEmail par %%LIEN%%
-supression de useremail et code d'accès de %%PERSONNE_GUID%% c'était idiot !
+supression de useremail et code d'accÃ¨s de %%PERSONNE_GUID%% c'Ã©tait idiot !
 
-Possiblité de sélectionner le questionnaire dans Questionnaire/Manage.aspx et cela a vraiment
+PossiblitÃ© de sÃ©lectionner le questionnaire dans Questionnaire/Manage.aspx et cela a vraiment
 du sens ! avant il faillait choisir au hasard un questionnaire ... !
 j'ai pu virer les trois colonne de chevrons stat visu et question
 
 Le fomulaire Contact/Register revu il y avait des incoherences
-On ne peut pas laisser n'importe quel internaute arriver là et créer un objet (personne) dans la DB
-et répondre au questionnaire. Pour s'assurer que c'est bien un humain alors il faut qu'il clique sur un
+On ne peut pas laisser n'importe quel internaute arriver lÃ  et crÃ©er un objet (personne) dans la DB
+et rÃ©pondre au questionnaire. Pour s'assurer que c'est bien un humain alors il faut qu'il clique sur un
 bouton avec antibot-capcha ...
-il me semble que si un robot passe par là c'est la cata !
+il me semble que si un robot passe par lÃ  c'est la cata !
 
 16/12/2008
-Développer la fonction anonymat complet :
+DÃ©velopper la fonction anonymat complet :
 c'est un peu complique car on avait prevu de cacher le nom et le prenom d'un Questionnaire.Anonymat
-lors de la creation des statistiques or là on cree une personne avec le nom anonymat ce qui aurait été suffisant
-%%PERSONNE_GUID%% j'ai presque oublié que cela existait !
+lors de la creation des statistiques or lÃ  on cree une personne avec le nom anonymat ce qui aurait Ã©tÃ© suffisant
+%%PERSONNE_GUID%% j'ai presque oubliÃ© que cela existait !
 
 08/12/08
 Correction espace page Accueil.aspx
 05/12/08
 Correction bug test Molnlycke un tableau ne commence pas par "fin tableau"
-Correction bug sur la validation des types de réponses dans une tableau
+Correction bug sur la validation des types de rÃ©ponses dans une tableau
 
-Ajout d'un message à l'utilisateur sur chaque Update() pour prévenir l'utilisateur que la modife
+Ajout d'un message Ã  l'utilisateur sur chaque Update() pour prÃ©venir l'utilisateur que la modife
 est faite.
 
 Correction bug Rang qui ne s'incrementait pas dans ButtonAjouterQuestion_Click()
-j'ai du l'oublier lorsque j'ai modifié le rang en TextBox
+j'ai du l'oublier lorsque j'ai modifiÃ© le rang en TextBox
 
 27/11/2008
 Ajout d'une barre de progession dans le questionnaire
-J'ai tenté de corriger le bug sur 
-Interviewés : 6  Réponses : 2 
-En déplacant :
+J'ai tentÃ© de corriger le bug sur 
+InterviewÃ©s : 6  RÃ©ponses : 2 
+En dÃ©placant :
 LabelNombreContacts.Text = Personnes.Count.ToString();
 LabelVotes.Text = PersonnesDropDownListQui.Count.ToString();
 Mai je suis pas sur !...
-Hé non il fallait
+HÃ© non il fallait
     private PollVoteCollection Votes
     {
         get
@@ -1165,62 +1169,62 @@ ViewState au lieu de Current.Session
 La page Wizard/enquete.aspx n'existait plus on tombait dans le vide !
 
 23/11/2008
-Possibilité à l'intervieweur d'être prévenu sur une nouvelle réponse d'interviewé
+PossibilitÃ© Ã  l'intervieweur d'Ãªtre prÃ©venu sur une nouvelle rÃ©ponse d'interviewÃ©
 Authentifier l'interviewe par un Guid pour respecter l'anonymat
 
 22/11/2008
 Version 4.1 ajout des Scores
-Amélioration du référencement
+AmÃ©lioration du rÃ©fÃ©rencement
 void AddMetaTag() dans PageBase
 
 21/11/2008
-Correction bug sur la mise à jour d'un questionnaire par un intervieweur "@Anonymat doit être déclaré" !
+Correction bug sur la mise Ã  jour d'un questionnaire par un intervieweur "@Anonymat doit Ãªtre dÃ©clarÃ©" !
 Encore un gros bug de merde dans la doc msdn !
-Ya un con qu'à ecrit qu'il fallait utiliser InsertVisible c'est pas vrai :
+Ya un con qu'Ã  ecrit qu'il fallait utiliser InsertVisible c'est pas vrai :
 ( ( BoundField )GridView1.Columns[ colonneAnonymat ] ).ReadOnly = false;
 ca marche !
 
 19/11/2008
-Réalisation de la fonctionnalité Anonymat pour un Questionnaire
-Amélioration des formulaires d'impression, n'imprimer que le minimum
-Ajout d'un formulaire d'impression pour Contact/Email.aspx pour récupérer des adresse plus facilement
+RÃ©alisation de la fonctionnalitÃ© Anonymat pour un Questionnaire
+AmÃ©lioration des formulaires d'impression, n'imprimer que le minimum
+Ajout d'un formulaire d'impression pour Contact/Email.aspx pour rÃ©cupÃ©rer des adresse plus facilement
 
 18/11/2008
 Un intervieweur peut maintenant editer la page PageEnregistrement quand il visualise l'invitation.
-Au moment d'envoyer les emails ont décoche les case à cocher c'est beaucoup mieux !
+Au moment d'envoyer les emails ont dÃ©coche les case Ã  cocher c'est beaucoup mieux !
 J'en fini avec cette histoire de corps email dans les SettingsClient,
 je garde le sujet et je fais sujet + questionnaire.description
 
 16/11/2008
-ajout d'une information PersonneEmailEnvois pour connaitre le nombre d'email envoyés aux interviewés
-correction du message " n'est pas un format valide" dans l'import des interviewés
+ajout d'une information PersonneEmailEnvois pour connaitre le nombre d'email envoyÃ©s aux interviewÃ©s
+correction du message " n'est pas un format valide" dans l'import des interviewÃ©s
 
 13/11/2008
 Correction d'un bug sur QuestionReponse.Question.Rank dans Wizard/Question
 Correction d'un bug dans App_Code/Instruction.cs Compute(), un truc visselard
 
 12/11/2008
-Possibilite de définir le rang de la question dans Wizard/Question
+Possibilite de dÃ©finir le rang de la question dans Wizard/Question
 Bug alignement vertical horizontal ne se faisait plus
 confusion entre RepeatDirection et RepeatColumns pour bien faire il faudrait ajouter un attribut ...
 
 11/11/2008
-Meilleur référencement : modification du Titre de la page /Questionnaire/Publication.aspx
+Meilleur rÃ©fÃ©rencement : modification du Titre de la page /Questionnaire/Publication.aspx
 et de la page d'invitation
-L'utilisateur ne voit jamais son nom son prénom c'est dommage
+L'utilisateur ne voit jamais son nom son prÃ©nom c'est dommage
 
 10/11/2008
 Modification de Questionnaire/Edit.aspx pour editer un questionnaire choisi par l'utilisateur
 je n'avais pas vu mais si on fait Menu Questionnaire->Editer il ne se passe rien !
 Bug : le volet permettant publier un questionnaire ne s'extend pas !
-Corrigé : il y avait deux fois l'instruction : TrVoletPublier.Visible = TrVoletPublier.Visible == false;
+CorrigÃ© : il y avait deux fois l'instruction : TrVoletPublier.Visible = TrVoletPublier.Visible == false;
 
 09/11/2008
-Correction du Bug décallage à la création des questions de facon enchainee dans Wizard/Question cebug
+Correction du Bug dÃ©callage Ã  la crÃ©ation des questions de facon enchainee dans Wizard/Question cebug
 est corriger par :
 QuestionReponse.Question.PollQuestionId = Guid.Empty; a la fin de 
 ButtonAjouterQuestion_Click()
-Encore une fois c'est le TraceReporter qui m'a sauvé la vie !
+Encore une fois c'est le TraceReporter qui m'a sauvÃ© la vie !
 
 03/11/2008
 Modif Pager pour le mode tableau, il vaut mieux afficher quelque chose, que 0 !
@@ -1232,9 +1236,9 @@ correction d'un bug introduit lors de lapossiblite pour l'intervieweur afficher 
 du Questionnaire confusion avec Questionnaire en mode test qui permttait de na pas creer les votes dans la BD
 tout ca disparait
 
-suppression des types de questions totalement débile.
-on vire l'aide à droite contextuelle -> inutile !
-correction bug sur formulaire en mode Démo dans Wizard/Question
+suppression des types de questions totalement dÃ©bile.
+on vire l'aide Ã  droite contextuelle -> inutile !
+correction bug sur formulaire en mode DÃ©mo dans Wizard/Question
 
 25/10/2008
 remaniement de la gestion des styles
@@ -1249,11 +1253,11 @@ Correction bug Style dans Question par Question on ne faisait pas la meme chose 
 17/10/2008
 Bug lorsque plusieures semi-ouverte ou date sont sur la meme page !!
 elles ont le meme ID !
-Plusieurs contrôles avec le même ID 'LabelTextBoxDate' ont été trouvés !
+Plusieurs contrÃ´les avec le mÃªme ID 'LabelTextBoxDate' ont Ã©tÃ© trouvÃ©s !
 
 Modification du lien questionnaire en cours sur la page d'accueil pour qu'il soit plus 
-évident
-Ajout d'un lien évident pour l'utlisateur dans :
+Ã©vident
+Ajout d'un lien Ã©vident pour l'utlisateur dans :
 Questionnaire/Manage.aspx
 ~/Poll/List.aspx?QuestionnaireID={0}
 
@@ -1265,19 +1269,19 @@ Stabilisation style
 Ajout d'une CheckBox pour mettre une Question de fin dans Wizard/Question.aspx
 
 13/10/2008
-Ajouter la possibilité de dévérouiller un utilisateur.
-Ajout de la possiblité de changer le mot de passe d'un utilisateur.
-Ajouter le possiblité de mettre un utilisateur dans le groupe "Administrateur" oups ...
-Correction du bug sur les votes déjà existants pour un interviewés
+Ajouter la possibilitÃ© de dÃ©vÃ©rouiller un utilisateur.
+Ajout de la possiblitÃ© de changer le mot de passe d'un utilisateur.
+Ajouter le possiblitÃ© de mettre un utilisateur dans le groupe "Administrateur" oups ...
+Correction du bug sur les votes dÃ©jÃ  existants pour un interviewÃ©s
 
 12/10/2008
 Correction d'un Bug concernant le choix d'un Questionnaire.
 Lors du passage par Questionnaire/Manage.aspx
-avant quand j'éditais un questionnaire, sur GridView1_RowUpdated je faisais :
+avant quand j'Ã©ditais un questionnaire, sur GridView1_RowUpdated je faisais :
 SessionState.Questionnaire = null;
 et
 SessionState.Questionnaires = null;
-Pour recharger les données depuis la BD car auparavant on pouvait supprimer 
+Pour recharger les donnÃ©es depuis la BD car auparavant on pouvait supprimer 
 un Questionnaire depuis ce formulaire mais maintenant on ne fait plus qu'editer 
 un Questionnaire donc dans : 
 GridView1_RowCommand()
@@ -1287,23 +1291,23 @@ il suffit de faire :
             // Recharger le Questionnaire depuis la BD
             SessionState.Questionnaire = Questionnaire.GetQuestionnaire( SessionState.Questionnaire.QuestionnaireID );
         }
-pour recharger les données depuis la BD
+pour recharger les donnÃ©es depuis la BD
 
 09/10/08
 plein de choses... + livraison
 
 08/10/08
 Ajout d'un Style au Questionnaire nvarchar(50)
-Ajout de la possibilité d'ajouter des réponse dans le listing du Questionnaire
-Ajout de la possiblité de créer des Tableaux dans les Questions enchainées
+Ajout de la possibilitÃ© d'ajouter des rÃ©ponse dans le listing du Questionnaire
+Ajout de la possiblitÃ© de crÃ©er des Tableaux dans les Questions enchainÃ©es
 
 07/10/08
-Intégration d'une modife de la v3.0 dans les statistiques on n'affichait pas le nombre
+IntÃ©gration d'une modife de la v3.0 dans les statistiques on n'affichait pas le nombre
 de votants par question
 
 04/10/08
 correction du bug de modification des settings member, l'admin ne pouvait pas le faire
-c'est corrigé par :
+c'est corrigÃ© par :
         public int MemberSettings.Update()
         {
             string membre = "";
@@ -1327,17 +1331,17 @@ Utilisation de MutuallyExclusiveCheckBoxExtender dans les tableau pour que l'uti
 ne puisse cocher qu'une RadioButton par ligne ouf putain de merde !
 
 26/09/08
-Type de Questions Réponses
+Type de Questions RÃ©ponses
     Ouverte
     Semi-ouverte choix simple
     Semi-ouverte choix multiple
-    Fermés choix simple
-    Fermée choix multiple
-    Numérique
+    FermÃ©s choix simple
+    FermÃ©e choix multiple
+    NumÃ©rique
     Ouverte
     
 25/09/08
-Toute la journée avec l'équipe du Questionnaire en ligne
+Toute la journÃ©e avec l'Ã©quipe du Questionnaire en ligne
 
 24/09/08
 Cessation de l'utilisation de App_Code/Controls/QuestionnaireControl.cs
@@ -1355,7 +1359,7 @@ Debug du mode Page grace au TraceReporter
 Le mode Page
 
 11/09/08
-Les Colonnes alignement sont asujetties à un bit dans Poll/Manage.aspx + pratique
+Les Colonnes alignement sont asujetties Ã  un bit dans Poll/Manage.aspx + pratique
 
 10/09/08
 Suppression de l'aide en ligne sur la page Wizard/Accueil
@@ -1366,48 +1370,48 @@ Suppression des colonnes Nom Prenom dans /Questionnaire/Manage.aspx pour Role("A
 
 04/09/2008
 Suppression de la page master pour PageErreur.aspx
-sinon, si ya un bug dans la page master on n'arrive jamais à la page d'erreur !
+sinon, si ya un bug dans la page master on n'arrive jamais Ã  la page d'erreur !
 
 02/09/2008
-correction bug label mal alignés dans QuestionnaireControls.cs
+correction bug label mal alignÃ©s dans QuestionnaireControls.cs
 correction bug membre.Trim() dans StyleWeb
 
 01/09/2008
-Fonctionnalité copier des questions d'un questionnaire intervieweur dans un questionnaire existant
+FonctionnalitÃ© copier des questions d'un questionnaire intervieweur dans un questionnaire existant
 ajout width 100% dans edit style web
 ajout popup aide en ligne
 
 25/08/2008
 * Correction Bug : Width et Height on a rien peu faire ! si c'est dans :
 applyStyleOnPreRenderComplete()
-résultat bizard si Font.Size.IsEmpty le label est énorme !
-* ButtonSave du Questionnaire/Edit.aspx disparait après la création
+rÃ©sultat bizard si Font.Size.IsEmpty le label est Ã©norme !
+* ButtonSave du Questionnaire/Edit.aspx disparait aprÃ¨s la crÃ©ation
 
 20/08/2008
-Bug sur l'authentification des interviewés, il faut un trim() au niveau du Login.cs
+Bug sur l'authentification des interviewÃ©s, il faut un trim() au niveau du Login.cs
 et au niveau de Contac/Manage.cs
 
 18/08/2008
-Ajout d'une barre de navigation en réponse à cette "sensation d'être perdu" d'Alex.
+Ajout d'une barre de navigation en rÃ©ponse Ã  cette "sensation d'Ãªtre perdu" d'Alex.
 
 17/08/2008
-Correction d'un bug dans CheckBoxListStyle.cs l'attribut "value" n'était pas dans l'objet
-on ne pouvait pas voté, c'est bizard !
-dans Wizard/Question.aspx on Update la Question dès que l'on peut
-mais on ne peut pas updater les réponses !
-Le bouton "Modifier" ne sert qu'à modifier les réponses
+Correction d'un bug dans CheckBoxListStyle.cs l'attribut "value" n'Ã©tait pas dans l'objet
+on ne pouvait pas votÃ©, c'est bizard !
+dans Wizard/Question.aspx on Update la Question dÃ¨s que l'on peut
+mais on ne peut pas updater les rÃ©ponses !
+Le bouton "Modifier" ne sert qu'Ã  modifier les rÃ©ponses
 
 15/08/2008
 En modifiant les questions du questionnaire Sodevlog, j'ai perdu les votes !
-Ce n'était pas la peine de faire "Modifier" pour aligner les questions à gauche car on update
+Ce n'Ã©tait pas la peine de faire "Modifier" pour aligner les questions Ã  gauche car on update
 par contre "Modifier" on fait bien un Reponse.Delete avant de les reconstruire !
 
 Correction Bug !
-Ajout du test sur CodeAcces pour ne pas créer plusieurs questionnaires avec le meme code !
+Ajout du test sur CodeAcces pour ne pas crÃ©er plusieurs questionnaires avec le meme code !
 IF NOT EXISTS( SELECT * FROM Questionnaire WHERE CodeAcces = @CodeAcces )
 
 Attention StyleWeb/Edit.aspx utilisait la page Master de PageTest
-elle utilise maintenant la MasterPage.master mais est-ce très joli !!!
+elle utilise maintenant la MasterPage.master mais est-ce trÃ¨s joli !!!
 
 Correction d'un bug dans : Questionnaire/Publication.aspx
 // SessionState.Questionnaire = SessionState.Questionnaires.FindByCodeAcces( code );
@@ -1417,50 +1421,50 @@ Bug ( ClassQuestionReponse )ViewState[ "_QuestionReponse" ] Cast Impossible ?
 A quoi est du ce bug putain
 
 01/08/08
-Ne pas oublier les modifications dans la Création le Copier des questionnaires !!!!!!!!!!!!
-Ajout d'un bit Numerique pour forcer l'interviewé à une réponse numérique
-Ajout d'un bit Obligatoire pour les réponses textuelles afin de forcer l'interviewé à repondre
-a toutes les réponses textuelles
+Ne pas oublier les modifications dans la CrÃ©ation le Copier des questionnaires !!!!!!!!!!!!
+Ajout d'un bit Numerique pour forcer l'interviewÃ© Ã  une rÃ©ponse numÃ©rique
+Ajout d'un bit Obligatoire pour les rÃ©ponses textuelles afin de forcer l'interviewÃ© Ã  repondre
+a toutes les rÃ©ponses textuelles
 
 22/07/08
 Message en haut ou en bas selon la Question, ajout de MessageHaut dans la table PollQuestion
-Développement de StyleWeb, Wizard/Question
+DÃ©veloppement de StyleWeb, Wizard/Question
 
 20/07/08
-Le message à l'utilisateur est avant la question ?
+Le message Ã  l'utilisateur est avant la question ?
 
 08/08/2008
 dans LoginBanner.ascx.cs il y de temps en temps un des objets dont on fait LoginView1.FindControl()
-qui est null !? je teste à null pour remplir l'objet
+qui est null !? je teste Ã  null pour remplir l'objet
 
 07/07/08
-Gestion des pages revue pour ne laisser à l'utilisateur que les sections qui ont été copier pour lui
+Gestion des pages revue pour ne laisser Ã  l'utilisateur que les sections qui ont Ã©tÃ© copier pour lui
 par l'admin c'est beaucoup plus simple !
 
 01/07/08 v3.0
-Intégration d'un menu dépendant du SiteMap ajout de sous menu
-l'édition d'un interviewé se comporte comme l'edition d'un questionnaire avec le titre Edition ou Creation
+IntÃ©gration d'un menu dÃ©pendant du SiteMap ajout de sous menu
+l'Ã©dition d'un interviewÃ© se comporte comme l'edition d'un questionnaire avec le titre Edition ou Creation
 
 30/06/08
-Sauvegarde version 2.6 avant intégration menu
+Sauvegarde version 2.6 avant intÃ©gration menu
 
 24/06/08
 Contact/Email et Contact/Manage : bouton "Bas de page"
-Copie des réponses d'une question dans la nouvelle question
+Copie des rÃ©ponses d'une question dans la nouvelle question
 Poll/Manage.aspx ajout d'un bouton Bas De page
 Les boutons Poll/Manage.aspx et Poll/Answers.aspx sont plus jolis
-Questionnaire/Manage ToolTip du bouton Nouveau revu : Créer un nouveau Questionnaire
+Questionnaire/Manage ToolTip du bouton Nouveau revu : CrÃ©er un nouveau Questionnaire
 Questionnaire/Edit 
-    le titre devient variable Edition ou Création
+    le titre devient variable Edition ou CrÃ©ation
     la description devient "Nom du Questionnaire" et passe en haut
-    les informations qui ne concernent pas l'intervieweur ont été mises dans le PanelAdmin
+    les informations qui ne concernent pas l'intervieweur ont Ã©tÃ© mises dans le PanelAdmin
 
 Modif du 20/06 faite, il suffisait d'utiliser CurrentPageIndex au Page_Load
 et dans Contact/Manage.aspx idem
 
 Qu'est ce que le bloquage d'un questionnaire :
-dans Contact/Email : la colonne edit est cahée
-                     le bouton supprimer est caché
+dans Contact/Email : la colonne edit est cahÃ©e
+                     le bouton supprimer est cachÃ©
 dans Contact/Manage :
             PanelLoadDocument.Visible = false;
             PanelQuestionnaireBloque.Visible = true;
@@ -1477,48 +1481,48 @@ dans Questionnaire/Edit.aspx
 dans Poll/Manage
             PanelQuestionnaireBloque.Visible = true;
             PanelQuestionnaire.Visible = false;
-Donc un questionnaire bloqué c'est un questionnaire dont l'intervieweur ne peut plus
-ajouter ou supprimer des interviewés
+Donc un questionnaire bloquÃ© c'est un questionnaire dont l'intervieweur ne peut plus
+ajouter ou supprimer des interviewÃ©s
 modifier le questionnaire
 Donc ne peut plus qu'envoyer des emails
              
 20/06/08
-Il faudrait lors de l'edition d'un interviewé que l'on puisse revenir sur la page avec le bon index ...
+Il faudrait lors de l'edition d'un interviewÃ© que l'on puisse revenir sur la page avec le bon index ...
 
 13/06/08
-J'ai réussi à virer le Response.Redirect du bouton Envoyer qui remettais 
-la page a zéro : très désagréable !
+J'ai rÃ©ussi Ã  virer le Response.Redirect du bouton Envoyer qui remettais 
+la page a zÃ©ro : trÃ¨s dÃ©sagrÃ©able !
 
 12/06/08
 Optimisation du formulaire contact email il y avait une boucle for dans
 ComputeVoteColumn
 qui ne servait a rien !!!!
 
-Modif des padding des boundfield 5 à gauche 5 à droite
+Modif des padding des boundfield 5 Ã  gauche 5 Ã  droite
 suppression de la colonne code pour Email
-ajout compteur pour les interviewés
+ajout compteur pour les interviewÃ©s
 
 07/06/08
-Il me semble idiot de pouvoir trier les interviewés par Code même la colonne ne se justifie pas vraiment ...
+Il me semble idiot de pouvoir trier les interviewÃ©s par Code mÃªme la colonne ne se justifie pas vraiment ...
 Un peu de design
 Test sur le serveur H&L, explicitation du message erreur SendEmail - Livraison
 
 05/06/08
-Je suis obligé de livrer pour limité les dégats avec les 2000 contacts de Michel Weinberg
+Je suis obligÃ© de livrer pour limitÃ© les dÃ©gats avec les 2000 contacts de Michel Weinberg
 Correction dans :
 HttpContext.Current.Session[ "ContactsParPage" ] = Global.SettingsXml.ContactsParPageCourant;
 il y avait 50 en dur !
-Algo de changement de "Contacts par page : " revu pour être plus user-friendly
+Algo de changement de "Contacts par page : " revu pour Ãªtre plus user-friendly
 
-Optimisation étude, les fichier H&L font 50 Ko pour 1000 contacts
+Optimisation Ã©tude, les fichier H&L font 50 Ko pour 1000 contacts
 
 03/06/08
 Michel Weinberg me transmet un fichier de contacts au format Unix '\r' au lieu de '\r\n'
-Amélioration de CarnetAdresse.ImportFile( filename, ref personnes ) avec un test et une conversion
+AmÃ©lioration de CarnetAdresse.ImportFile( filename, ref personnes ) avec un test et une conversion
 au format DOS si besoin est
 
-QUEL CON JE me suis trompé avec le labelErrorMessage Bleu Style, ce sera pour la prochaine release
-NON NON je suis pas si CON LabelValidationMessageStyle et pourtant il m'a semblé le voir en rouge
+QUEL CON JE me suis trompÃ© avec le labelErrorMessage Bleu Style, ce sera pour la prochaine release
+NON NON je suis pas si CON LabelValidationMessageStyle et pourtant il m'a semblÃ© le voir en rouge
 a suivre
 
 02/06/08
@@ -1526,46 +1530,46 @@ Regarder un peu FireFox ajout rep :
 F:\Visual Studio 2005\Questionnaire\TestFireFox\Questionnaire
 + rep virtuel + grant acces et ca marche
 
-Correction bug : Le bouton "Réponses" est dans le panel et n'est plus caché par "Effacer" StatAlls
+Correction bug : Le bouton "RÃ©ponses" est dans le panel et n'est plus cachÃ© par "Effacer" StatAlls
 
 24/05/08
-Rang + ou - un implémenté
+Rang + ou - un implÃ©mentÃ©
 Meilleur gestion des utilisateurs plus d'infos notamment la lastlogindate
-Possiblité d'Approuver ou non les Intervieweurs
+PossiblitÃ© d'Approuver ou non les Intervieweurs
 
 23/04/08
-Ajout d'une case à cocher "Afficher date des votes"
+Ajout d'une case Ã  cocher "Afficher date des votes"
 On efface la sous-population si Request.QueryString[ "PollAnswerID" ] est null 
-pour ne pas mélanger avec les autres questionnaires
-du coup si on clique sur afficher la réponse textuelle ou afficher date des votes tout est effacé mais bon ...
+pour ne pas mÃ©langer avec les autres questionnaires
+du coup si on clique sur afficher la rÃ©ponse textuelle ou afficher date des votes tout est effacÃ© mais bon ...
 
-Regarder les possibilités que l'interviewé n'est pas à se connecter !
+Regarder les possibilitÃ©s que l'interviewÃ© n'est pas Ã  se connecter !
 C'est fait dans Login.aspx.cs par if ( Request[ "user" ] != null && Request[ "code" ] != null )
-L'email envoyé aux interviewés peut maintenant s'écrire :
+L'email envoyÃ© aux interviewÃ©s peut maintenant s'Ã©crire :
 http://www.sodevlog.fr/questionnaireenligne/login.aspx?user=%%ADRESSE_EMAIL%%&code=%%CODE_ACCES%%
 
 Correction orthographe Logguer les utilisateurs 
 
 17/04/08
-Il me taraudait d'améliorer les stats en affichant les stats d'une sous population
+Il me taraudait d'amÃ©liorer les stats en affichant les stats d'une sous population
 
 07/04/08
 Ajout de l'information Rang de la question dans Poll/QuestionnaireStatAll
 Optmisation drastique des formulaires Poll/QuestionnaireStatAll et Contact/Email en arretant de boucler sur les ProckStock
 il vaut mieux tout charger dans une variable de cession
-Poll/QuestionnaireStatAll est passe d'un PreRendrer de 20 secondes à moins d'une
+Poll/QuestionnaireStatAll est passe d'un PreRendrer de 20 secondes Ã  moins d'une
 et pour Contact/Email de 4 sec a 500 milli
 
 04/04/08
 Contacts par page dans les settings et legere correction lorsque l'utilisateur ne peut pas changer on remet la vrai valeur ...
 Optimisation sur la boucle des votes pour /Poll/QuestionnaireStatAll.aspx
 Une couleur un peu rouge pour les reponses textuelles dans /Poll/QuestionnaireStatAll.aspx
-Ajout de l'information Question posée et Réponse en bas pour le "Réponses des interviewés" dans /Poll/QuestionnaireStatAll.aspx
-Ajout de l'information du nombre d'interviewés par questionnaire dans /Contact/Manage.aspx
+Ajout de l'information Question posÃ©e et RÃ©ponse en bas pour le "RÃ©ponses des interviewÃ©s" dans /Poll/QuestionnaireStatAll.aspx
+Ajout de l'information du nombre d'interviewÃ©s par questionnaire dans /Contact/Manage.aspx
 on utilise SessionState.Personnes en pensant pouvoir optimiser le formulaire Sats
 
 On s'apercoit d'un truc dingue avec le CSV d'Excel encore !!!
-Il met des ';' pendant 15 colonnes et après il s'arrete si la colonne est vide ! 
+Il met des ';' pendant 15 colonnes et aprÃ¨s il s'arrete si la colonne est vide ! 
 Donc on ajoute artificiellement un ';' a la fin de valeurs
 string[] essai = lignes[ i ].Split( ';' );
 if ( essai.Length < colonnesExistantes.Count )
@@ -1576,116 +1580,116 @@ if ( essai.Length < colonnesExistantes.Count )
 }
 
 31/03/08
-Correction bug sur la copie d'un questionnaire, Width et Rows n'étaient pas copier 
+Correction bug sur la copie d'un questionnaire, Width et Rows n'Ã©taient pas copier 
 Correction bug sur test questionnaire : si l'utilisateur ajoutait une question le test plantait
 
 29/03/08
-Donner à l'admin la possiblité de gérer les serveurs Smtp de tous les intervieweurs
+Donner Ã  l'admin la possiblitÃ© de gÃ©rer les serveurs Smtp de tous les intervieweurs
 Correction bug tester questionnaire avec les questions en vrac
 Correction algo CalculCodeAcces
 
 26/03/08
 Mode d'enregistrement des votes et fin du questionnaire revue
 
-Suppression de votes en même temps que le contact dans Contact/Email
+Suppression de votes en mÃªme temps que le contact dans Contact/Email
 
 Livraison
 Ajout d'une ligne de log si l'utilisateur vient de l'exterieur pour savoir d'ou il vient !
 
 20/03/2008
-Ajout d'un bit Bloqué au questionnaire pour bloquer l'edition l'ajout la suppression des contacts
+Ajout d'un bit BloquÃ© au questionnaire pour bloquer l'edition l'ajout la suppression des contacts
 on fait apparaitre un PanelQuestionnaireBloque en cas de blocage du questionnaire
-c'est une prérogative de l'admin le Client n'a aucun interet à cette fonctionnalité
+c'est une prÃ©rogative de l'admin le Client n'a aucun interet Ã  cette fonctionnalitÃ©
 
 18/03/2008
-Ajout du bit EnableSSL dans le SmptServeur. C'était nécessaire pour le compte GMail.
-Amélioration de Contact/Register pour que le utilisateurs indélicats soient redirigés en erreur
+Ajout du bit EnableSSL dans le SmptServeur. C'Ã©tait nÃ©cessaire pour le compte GMail.
+AmÃ©lioration de Contact/Register pour que le utilisateurs indÃ©licats soient redirigÃ©s en erreur
 
-Ajout de réponses avec du texte
+Ajout de rÃ©ponses avec du texte
 
 15/03/08 v2.2
-Une réponse peut faire 256 car maintenant au lieu de 80
-Ajout d'un bit Anonyme au Questionnaire pour autoriser des anonyme a s'enregistrer et a répondre au questionnaire
+Une rÃ©ponse peut faire 256 car maintenant au lieu de 80
+Ajout d'un bit Anonyme au Questionnaire pour autoriser des anonyme a s'enregistrer et a rÃ©pondre au questionnaire
 Une nouvelle section PageEnregistrement qui accompagne les utilisateurs qui viennent s'enregistrer
-reservée à l'admin
-Procedure Sotckée : PersonneCreate doit faire le test d'exitence d'une personne sur PersonneEmailBureau et CodeAcces (pas sur nom prenom !)
+reservÃ©e Ã  l'admin
+Procedure SotckÃ©e : PersonneCreate doit faire le test d'exitence d'une personne sur PersonneEmailBureau et CodeAcces (pas sur nom prenom !)
   ajout d'un message commun formatte par Personne pour afficher toujours le meme message d'erreur a la creation d'une personne
-Ajout settings : EnregistrerContactAvecSociete pour forcer le contact à entrer un nom de société
-Ajout settings : EnregistrerContactAnonyme pour donner la possibilité à un contact non identifié de s'enregistrer
+Ajout settings : EnregistrerContactAvecSociete pour forcer le contact Ã  entrer un nom de sociÃ©tÃ©
+Ajout settings : EnregistrerContactAnonyme pour donner la possibilitÃ© Ã  un contact non identifiÃ© de s'enregistrer
 Questionnaire/Edit ajout de l'invitation d'un Contact
 Edition d'un contact correction du bouton "Retour" pour retourner vers Email ou vers Manage
-Ajout d'un Setting pour forcer les contact à mettre ou non une société
+Ajout d'un Setting pour forcer les contact Ã  mettre ou non une sociÃ©tÃ©
 
 12/03/08
-Correction orthographe interwievé en interviewé !!!
+Correction orthographe interwievÃ© en interviewÃ© !!!
 Ajout du module LogUser pour logger les utilisateurs
 Ajouter l'information choix multiple et obligatoire dans la liste des questions Poll/Answer
 Il faut rajouter les Message dans QuestionnaireEnCours
 
 Fait :
-L'information Valider et Fin d'un Questionnaire ne se rafraichie pas sur la DDL : Corrigé
+L'information Valider et Fin d'un Questionnaire ne se rafraichie pas sur la DDL : CorrigÃ©
 
 03/03 V2.1
-PageAide a été un peu élargie
-La Section PageDefault est remplacée par deux sections 
+PageAide a Ã©tÃ© un peu Ã©largie
+La Section PageDefault est remplacÃ©e par deux sections 
 PageLogin la page pour le login des utilisateurs
 PageAuthentifie qui "accueil" les Membres, PageAcceuil reste la page qui accueil les utilisateurs non authentifies
-c'était perturbant de voir la PageDefault qui demandait de s'authentifier une fois passé l'authentification
-ca fait un message en plus de l'admin vers un membre authentifié
+c'Ã©tait perturbant de voir la PageDefault qui demandait de s'authentifier une fois passÃ© l'authentification
+ca fait un message en plus de l'admin vers un membre authentifiÃ©
 Un Membre authentifie peut tester ses Questionnaires
-Ajout d'une vérification complete des instructions au moment des tester le Questionnaire
+Ajout d'une vÃ©rification complete des instructions au moment des tester le Questionnaire
 Copier des Questionnaires pour tout le monde recalcul d'un nouveau code d'acces
-Valider et Fin deux booléens dans Questionnaire :
-Valider : le Questionnaire est en mode validation l'interwievé peut consulter la liste des questions
-et des réponses et modifier les réponses
-Fin : pour valider ses réponses l'interwievé doit répondre à toutes les questions sinon 
-on le laisse valider un questionnaire que partiellement. Fin à true n'a de sens que si Valider est à 1
+Valider et Fin deux boolÃ©ens dans Questionnaire :
+Valider : le Questionnaire est en mode validation l'interwievÃ© peut consulter la liste des questions
+et des rÃ©ponses et modifier les rÃ©ponses
+Fin : pour valider ses rÃ©ponses l'interwievÃ© doit rÃ©pondre Ã  toutes les questions sinon 
+on le laisse valider un questionnaire que partiellement. Fin Ã  true n'a de sens que si Valider est Ã  1
 
 29/02/08
-Ajout de Civilités dans les Interwievés donc ajout dans le fichier excel et dans l'aide
+Ajout de CivilitÃ©s dans les InterwievÃ©s donc ajout dans le fichier excel et dans l'aide
 Pour tester les questionnaire finalement Admin et Client ont besoin d'usurper une Personne
 donc dans SessionSate.Personne on fabrique un clone...
-Bug : Correction du choix d'email envoyé si il existe un Email pour le Questionnaire on prend celui-là sinon tout le monde
+Bug : Correction du choix d'email envoyÃ© si il existe un Email pour le Questionnaire on prend celui-lÃ  sinon tout le monde
 Suppression des contenus Web ToutLeMonde dans la suppression d'un membre
 DropDownListQuestionnaire dans Page ajout de code acces
 
 27/02
 Correction bug SmtpServeur
 Dans Interwieveus la liste est maintenant un lien direct vers la programmation du questionnaire
-Forcer le Questionnaire à se recharger lors de la suppression d'un membre
+Forcer le Questionnaire Ã  se recharger lors de la suppression d'un membre
 
-Menu AdminQ renommé en Admin
-Ajout de la liste des Questionnaires associés à un membre dans "Interwieveur" sur le Select
-CheckBox garder leurs états tout au long d'un Session
+Menu AdminQ renommÃ© en Admin
+Ajout de la liste des Questionnaires associÃ©s Ã  un membre dans "Interwieveur" sur le Select
+CheckBox garder leurs Ã©tats tout au long d'un Session
 
 Version 2.0
 
-Les prérogatives de l'admin : ajouter ou supprimer un membre
-Il configure les sections qui lui sont réservées
+Les prÃ©rogatives de l'admin : ajouter ou supprimer un membre
+Il configure les sections qui lui sont rÃ©servÃ©es
 
 Au lieu de "Selectionner un membre" dans le choix de la section "Pour l'Admin" c'est plus clair
 AideAdmin :
-Les sections qui sont exclues à la gestion des membres
+Les sections qui sont exclues Ã  la gestion des membres
 "PageAide"
 "PageAideAdmin"
 "PageDefault"
 
-Attention aux votes fantomes lors de la suppression d'un contact dans les interwievés les votes du dit
-interwievé ne sont pas supprimé, ils le sont lors de la suppression du questionnaire
-Possiblité de copier un Questionnaire pour un autre Membre
-Vérification des configurations de sécurité de l'application
+Attention aux votes fantomes lors de la suppression d'un contact dans les interwievÃ©s les votes du dit
+interwievÃ© ne sont pas supprimÃ©, ils le sont lors de la suppression du questionnaire
+PossiblitÃ© de copier un Questionnaire pour un autre Membre
+VÃ©rification des configurations de sÃ©curitÃ© de l'application
 Ajout de ChoixMultiple et de Message
-Correction de bug sur mise à jour questionnaire suite à l'ajout de la checkbox Date
+Correction de bug sur mise Ã  jour questionnaire suite Ã  l'ajout de la checkbox Date
 Instruction multiples ?
-On ajoute trois possiblités aux Questions
-Obligatoire impose le vote de l'interwievé
+On ajoute trois possiblitÃ©s aux Questions
+Obligatoire impose le vote de l'interwievÃ©
 Instruction et Fin pour programmer le Questionnaire
-Instruction est de la forme "si R2 alors Q3" pour programmer que si l'interwiever coche la réponse 2 il ira à la Question 3
+Instruction est de la forme "si R2 alors Q3" pour programmer que si l'interwiever coche la rÃ©ponse 2 il ira Ã  la Question 3
 Fin permet de terminer le Questionnaire
 La programmation du Questionnaire implique de ne pas mettre plusieurs questions de rang max ...
 
 16/02/08
-Amélioration du style du Questionnaire, ajout d'un comtpeur de Questions
+AmÃ©lioration du style du Questionnaire, ajout d'un comtpeur de Questions
 Ajout d'un parametre nombre de questions par colonne
 Ajout d'un Bouton Tester dans liste des Questionnaires et d'un mode test pour le Questionnaire
 
@@ -1694,30 +1698,30 @@ Ajout bouton aide sur import fichiers
 Correction de bug Edit Page un Membre voyait tous les Questionnaires
 Ajout colonne bouton stats dans AdminQ
 Correction affichage votes du permier votant
-Ajout information Nombre d'interwievés et nombre de réponse dans Statistiques et Email
+Ajout information Nombre d'interwievÃ©s et nombre de rÃ©ponse dans Statistiques et Email
 Ajout Titres aux pages
 Email configurable dans CorpsEmail WebContentSection
 Correction bug colonne Vote dans email attention on ne calcul la colonne Vote que pour un seul questionnaire dans la 
 colonne n'est pas visible pour "Tout les contacts" avec l'admin
-Utilisateur changé en Interwieveur dans Page
-Contact changé en Interwievé
-Ajout d'un Choix Liste déroulante CodeAcces dans le Formulaire Questionnaire
-Membre est supprimé du menu pour le membre
-Correction nom fichiers uploadés l'erreur venait du Server.UrlEncode ?! à reporter dans CSK.
+Utilisateur changÃ© en Interwieveur dans Page
+Contact changÃ© en InterwievÃ©
+Ajout d'un Choix Liste dÃ©roulante CodeAcces dans le Formulaire Questionnaire
+Membre est supprimÃ© du menu pour le membre
+Correction nom fichiers uploadÃ©s l'erreur venait du Server.UrlEncode ?! Ã  reporter dans CSK.
 
-Amélioration : Page : possiblité de trier d'afficher ou non la date et la description du questionnaire
-Amélioration : Session.Clear() au Login pour clarifier le fonctionnement
+AmÃ©lioration : Page : possiblitÃ© de trier d'afficher ou non la date et la description du questionnaire
+AmÃ©lioration : Session.Clear() au Login pour clarifier le fonctionnement
 Correction Bug : Contact/Email : DropDownListQuestionnaire
-Amélioration : formulaire AdminQ ajout colonne CodeAcces ajout case à cocher Date
+AmÃ©lioration : formulaire AdminQ ajout colonne CodeAcces ajout case Ã  cocher Date
 Correction anomalie : 0 questions pour le Questionnaire lors du connect pour le contact
 Correction Bug : DDL avec ArrayList.Clear dans les ContruireItems
 
 *** 1.6.1
-On ne peut pas telecharger des images pour les pages non créées, il faut d'abord créer la page.
+On ne peut pas telecharger des images pour les pages non crÃ©Ã©es, il faut d'abord crÃ©er la page.
 
-Mise a jour page par l'utilisateur lors de l'affectation d'une page existante à un autre visualisateur :
-    si la page n'existe pas elle est crée (attention au fichiers downloadés que se passe t-il?)
-    si elle existe elle écrase la page qui existait
+Mise a jour page par l'utilisateur lors de l'affectation d'une page existante Ã  un autre visualisateur :
+    si la page n'existe pas elle est crÃ©e (attention au fichiers downloadÃ©s que se passe t-il?)
+    si elle existe elle Ã©crase la page qui existait
     
 correction Membre/Register.aspx suppression de 
 //FormsAuthentication.SetAuthCookie( user.UserName, false );
@@ -1728,41 +1732,41 @@ correction supression serveur smtp != null dans suppression d'un membre
 
 *** 1.6
 Les WebContents
-Donner la possibilité à un membre de réaffecter une page pour un autre visualisateur
+Donner la possibilitÃ© Ã  un membre de rÃ©affecter une page pour un autre visualisateur
 
 *** 1.5
-Ajout information "Qui à voté" dans QuestionnaireStatsAll
+Ajout information "Qui Ã  votÃ©" dans QuestionnaireStatsAll
 Correction bug sur CheckBoxListExclusive CSV Outlook correction importation contacts.
-Ajout d'une colonne A voté dans le formulaire Contact/Email
+Ajout d'une colonne A votÃ© dans le formulaire Contact/Email
 Le bandeau du site est devenu une section WebContent cela permet de faire plus de choses au niveau
 du bandeau mais ce n'est pas encore ca !
-Ajout d'un UpdateProgress à l'envoi d'email avec deux petits ordi qui s'envoient une lettre
+Ajout d'un UpdateProgress Ã  l'envoi d'email avec deux petits ordi qui s'envoient une lettre
 SQL : GetPollVotes 
 
-Reste à faire : savoir qui à voté quoi (fait)
+Reste Ã  faire : savoir qui Ã  votÃ© quoi (fait)
 
 *** 1.4
 Correction de bugs.
-Amélioration, utilisation du seul formulaire ListUser.aspx pour laisser accès 
-aux Clients à leurs formulaires. Ils ne passent plus par les formulaires de gestion des 
-questionnaires des questions et des réponses.
-A faire : supprimer la gestion multi utilisateurs dans les formulaires qui ne sont plus utilisés 
+AmÃ©lioration, utilisation du seul formulaire ListUser.aspx pour laisser accÃ¨s 
+aux Clients Ã  leurs formulaires. Ils ne passent plus par les formulaires de gestion des 
+questionnaires des questions et des rÃ©ponses.
+A faire : supprimer la gestion multi utilisateurs dans les formulaires qui ne sont plus utilisÃ©s 
 par les Utilisateurs (Clients).
 
 0001 : Lorsqu'un Membre n'a qu'un questionnaire en ligne, sur le formulaire Contact si on clique 
 sur Nouveau le formulaire Edit demande de choisir un Questionnaire alors que le questionnaire 
-est déjà choisi (grave).
-contournement possible : créer un deuxième questionnaire. 
-status : Corrigé
+est dÃ©jÃ  choisi (grave).
+contournement possible : crÃ©er un deuxiÃ¨me questionnaire. 
+status : CorrigÃ©
 
 0002 : La suppression d'un Membre oublie de supprimer les SettingsUtilisateurs correspondants 
 (config serveur smtp) (pas grave) 
-status : Corrigé
+status : CorrigÃ©
 
-0003 : Formulaire Questions : Le client voit la possibilité d'ajouter une question (grave). 
-status : Corrigé
+0003 : Formulaire Questions : Le client voit la possibilitÃ© d'ajouter une question (grave). 
+status : CorrigÃ©
 
 *** 1.1
-Ajout du rôle Client
+Ajout du rÃ´le Client
 Gestion du fichier Web.sitemap en fonction des pages accessibles
-Ajout d'un CodeAcces dans les personnes pour distinguer plusieurs questionnaire par société
+Ajout d'un CodeAcces dans les personnes pour distinguer plusieurs questionnaire par sociÃ©tÃ©
