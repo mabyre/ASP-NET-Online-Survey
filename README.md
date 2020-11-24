@@ -30,7 +30,7 @@ Very effective statistics tabulation form with pivot table to analyze data.
 Survey's graphics fully customizable to your needs with your logos, styles.
 
 #### Notes from 2020/03/17
-I did can open, compile and run the solution under Visual Studio Community 2019,
+I did can open, compile and run the solution under **Visual Studio Community 2019**,
 which I find very nice.
 
 When I update the connection strings to attach databases ASPNETDB and QUESTIONNAIREDB 
